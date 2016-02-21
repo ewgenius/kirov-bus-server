@@ -17,7 +17,7 @@ function getOrigins() {
     http://localhost:*,
     http://localhost:8000
     `;*/
-  return 'https://kirov-bus.firebaseapp.com:443';
+  return 'https://kirov-bus.firebaseapp.com';
 }
 
 const origins = getOrigins();
@@ -47,7 +47,7 @@ app.get('/api/routes', (req, res) => {
 const server = createServer(app);
 const io = IO(server);
 
-io.set('origins', origins);
+io.set('origins', origins + ':443');
 
 io.on('connection', socket => {
   console.log('connected', socket);
