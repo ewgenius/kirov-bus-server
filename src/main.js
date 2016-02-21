@@ -17,7 +17,7 @@ function getOrigins() {
     http://localhost:*,
     http://localhost:8000
     `;*/
-  return 'https://kirov-bus.firebaseapp.com:9200';
+  return 'https://kirov-bus.firebaseapp.com:*';
 }
 
 const origins = getOrigins();
@@ -50,7 +50,7 @@ const io = IO(server);
 io.set('origins', origins);
 
 io.on('connection', socket => {
-  console.log('connected');
+  console.log('connected', socket);
   socket.emit('connected', 'test');
 
   socket.on('subscribe', route => {
