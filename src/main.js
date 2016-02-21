@@ -8,16 +8,10 @@ import {
 import IO from 'socket.io';
 
 function getOrigins() {
-  /*console.log(process.env.ENVIRONMENT);
-  if (process.env.ENVIRONMENT === 'dev')
-  else */
-  //return `http://localhost:8000`;
-  /*return `
-    https://kirov-bus.firebaseapp.com:*,
-    http://localhost:*,
-    http://localhost:8000
-    `;*/
-  return 'https://kirov-bus.firebaseapp.com';
+  if (process.env.ENVIRONMENT === 'prod')
+    return 'https://kirov-bus.firebaseapp.com';
+  else
+    return `http://localhost:8000`;
 }
 
 const origins = getOrigins();
@@ -50,11 +44,23 @@ const io = IO(server);
 io.set('origins', origins + ':443');
 
 io.on('connection', socket => {
-  console.log('connected', socket);
   socket.emit('connected', 'test');
 
   socket.on('subscribe', route => {
-    socket.join(`route-${route.id}`);
+    console.log(`http://m.cdsvyatka.com/many_json.php?marsh=${route}`);
+    socket.join(`route-${route}`);
+    request(`http://m.cdsvyatka.com/many_json.php?marsh=${route}`)
+      .then(r => {
+        console.log(typeof r, r);
+        return r;
+      })
+      .then(r => JSON.parse(r))
+      .then(result => {
+        io.to(`route-${route}`).emit('route.update', {
+          route: route,
+          data: result
+        });
+      }).catch(err => console.error(err));
   });
 
   socket.on('unsubscribe', route => {
@@ -65,5 +71,5 @@ io.on('connection', socket => {
 server.listen(PORT, () => {
   let host = server.address().address;
   let port = server.address().port;
-  console.log(`server listening at http://${host}:${port}`);
+  console.log(`server listening at http://${host}:${port}, for ${origins}`);
 })
