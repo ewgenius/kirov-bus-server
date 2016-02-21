@@ -9,7 +9,8 @@ const origins = `
   https://kirov-bus.firebaseapp.com,
   https://kirov-bus.firebaseapp.com:8082,
   https://kirov-bus.firebaseapp.com:80,
-  http://localhost:8000`;
+  https://kirov-bus.firebaseapp.com:*,
+  http://localhost:*`;
 
 let PORT = process.env.PORT || 3000;
 let app = express();
