@@ -17,7 +17,7 @@ function getOrigins() {
     http://localhost:*,
     http://localhost:8000
     `;*/
-  return 'https://kirov-bus.firebaseapp.com:*';
+  return 'https://kirov-bus.firebaseapp.com:443';
 }
 
 const origins = getOrigins();
