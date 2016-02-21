@@ -11,12 +11,13 @@ function getOrigins() {
   /*console.log(process.env.ENVIRONMENT);
   if (process.env.ENVIRONMENT === 'dev')
   else */
-  return `http://localhost:8000`;
+  //return `http://localhost:8000`;
   /*return `
     https://kirov-bus.firebaseapp.com:*,
     http://localhost:*,
     http://localhost:8000
     `;*/
+  return 'https://kirov-bus.firebaseapp.com:9200';
 }
 
 const origins = getOrigins();
