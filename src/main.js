@@ -5,6 +5,7 @@ import {
   createServer
 } from 'http';
 import IO from 'socket.io';
+import routes from './routes';
 
 function getOrigins() {
   if (process.env.ENVIRONMENT === 'prod')
@@ -22,16 +23,11 @@ app.use(cors({
   credentials: true
 }));
 
-app.get('/api/route', (req, res) => {
-  request(`http://m.cdsvyatka.com/scheme.php?marsh=${req.query.route}`)
-    .then(r => JSON.parse(r))
-    .then(result => {
-      res.send(result);
-    })
-    .catch(err => {
-      res.status(500).send(err);
-    });
-});
+app.get('/api/route', (req, res) =>
+  routes.getRoute(req.query.route)
+  .then(route => res.send(route))
+  .catch(err => res.status(500).send(err))
+);
 
 app.get('/api/routes', (req, res) => {
   res.send([1, 2, 3, 4, 5]);
