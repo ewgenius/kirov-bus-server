@@ -5,7 +5,7 @@ import {
 } from 'http';
 import IO from 'socket.io';
 
-const origins = 'http://localhost:8000, https://kirov-bus.firebaseapp.com/';
+const origins = 'http://localhost:8000, https://kirov-bus.firebaseapp.com';
 
 let PORT = process.env.PORT || 3000;
 let app = express();
