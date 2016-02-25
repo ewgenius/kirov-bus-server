@@ -113,20 +113,22 @@ function requestRoute(route) {
 }
 
 setInterval(() => {
-  let route = pool.pop();
-  requestRoute(route)
-    .then(result => {
-      console.log(`update for ${route}`);
-      io.to(`route-${route}`).emit('route.update', {
-        route: route,
-        data: result
-      });
-      pool.unshift(route);
-    })
-    .catch(() => {
-      console.log(`retry for ${route}`);
-      pool.push(route);
-    })
+  if (pool.length > 0) {
+    let route = pool.pop();
+    requestRoute(route)
+      .then(result => {
+        console.log(`update for ${route}`);
+        io.to(`route-${route}`).emit('route.update', {
+          route: route,
+          data: result
+        });
+        pool.unshift(route);
+      })
+      .catch(() => {
+        console.log(`retry for ${route}`);
+        pool.push(route);
+      })
+  }
 }, 50);
 
 server.listen(PORT, () => {
