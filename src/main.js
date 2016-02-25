@@ -42,10 +42,12 @@ io.on('connection', socket => {
   socket.emit('connected', 'test');
 
   socket.on('subscribe', route => {
+    console.log(`subscribed to ${route}`);
     socket.join(`route-${route}`);
   });
 
   socket.on('unsubscribe', route => {
+    console.log(`unsubscribed from ${route}`);
     socket.leave(`route-${route.id}`);
   });
 });
@@ -125,10 +127,7 @@ setInterval(() => {
       console.log(`retry for ${route}`);
       pool.push(route);
     })
-}, 500);
-
-
-
+}, 50);
 
 server.listen(PORT, () => {
   let host = server.address().address;
