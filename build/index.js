@@ -1,23 +1,24 @@
 'use strict';
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+var _express = require('express');
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+var _express2 = _interopRequireDefault(_express);
 
-var App = function () {
-  function App() {
-    _classCallCheck(this, App);
-  }
+var _socket = require('socket.io');
 
-  _createClass(App, [{
-    key: 'run',
-    value: function run() {
-      console.log('started');
-    }
-  }]);
+var _socket2 = _interopRequireDefault(_socket);
 
-  return App;
-}();
+var _http = require('http');
 
-var app = new App();
-app.run();
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var PORT = process.env.PORT || 3000;
+var app = (0, _express2.default)();
+var server = (0, _http.createServer)(app);
+var io = (0, _socket2.default)(server);
+
+server.listen(PORT, function () {
+  var host = server.address().address;
+  var port = server.address().port;
+  console.log('server listening at http://' + host + ':' + port);
+});
