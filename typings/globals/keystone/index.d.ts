@@ -16,6 +16,7 @@ declare module "keystone" {
     static get(key: string): any
     static start(configuration?: any)
     static importer(path: string)
+    static pre(event: string, handler: (req, res, next) => any)
 
     static utils: Utils
     static content: Content
