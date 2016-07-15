@@ -47,6 +47,12 @@ exports.requestScheme = function (route) {
         };
     });
 };
+var RouteType;
+(function (RouteType) {
+    RouteType[RouteType["bus"] = 1] = "bus";
+    RouteType[RouteType["intercity"] = 2] = "intercity";
+    RouteType[RouteType["troll"] = 3] = "troll";
+})(RouteType || (RouteType = {}));
 var CDS = (function () {
     function CDS(interval) {
         var _this = this;
@@ -108,6 +114,8 @@ var CDS = (function () {
         this.onRouteUpdate = function () { };
         ramda_1.keys(this.routes).map(function (key) {
             _this.routes[key] = {
+                route: key.substring(5),
+                type: Number(key[0]),
                 listenersCount: 0,
                 scheme: null,
                 busstop: null,
@@ -143,6 +151,9 @@ var CDS = (function () {
             _this.routes[("route" + route)].loaded = true;
             return _this.routes[("route" + route)];
         });
+    };
+    CDS.prototype.getRoutes = function () {
+        return Promise.resolve(this.routes);
     };
     CDS.prototype.getRoute = function (routeNumber) {
         var _this = this;

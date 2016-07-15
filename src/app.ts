@@ -25,7 +25,13 @@ app.use(cors({
   credentials: true
 }))
 
-app.get('/api/v1/route/:route', (req, res) => {
+app.get('/api/v1/routes', (req, res) => {
+  cds.getRoutes()
+    .then(result => res.send(result))
+    .catch(err => res.status(500).send(err))
+})
+
+app.get('/api/v1/routes/:route', (req, res) => {
   cds.getRoute(req.params.route)
     .then(result => res.send(result))
     .catch(err => res.status(500).send(err))

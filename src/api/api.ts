@@ -82,7 +82,15 @@ export const requestScheme: (number) => Promise<SchemeResponse> = route => {
     })
 }
 
+enum RouteType {
+  bus = 1,
+  intercity,
+  troll
+}
+
 interface RouteInstance extends SchemeResponse {
+  route: string,
+  type: RouteType,
   listenersCount: number,
   buses: RouteResponse,
   loaded: boolean
@@ -153,6 +161,8 @@ export class CDS {
   constructor(interval = 1000) {
     keys(this.routes).map(key => {
       this.routes[key] = {
+        route: key.substring(5),
+        type: Number(key[0]),
         listenersCount: 0,
         scheme: null,
         busstop: null,
@@ -191,6 +201,10 @@ export class CDS {
       this.routes[`route${route}`].loaded = true
       return this.routes[`route${route}`]
     })
+  }
+
+  getRoutes() {
+    return Promise.resolve(this.routes)
   }
 
   getRoute(routeNumber: number) {

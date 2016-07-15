@@ -18,7 +18,12 @@ app.use(cors({
     origin: FRONTEND_HOST,
     credentials: true
 }));
-app.get('/api/v1/route/:route', function (req, res) {
+app.get('/api/v1/routes', function (req, res) {
+    cds.getRoutes()
+        .then(function (result) { return res.send(result); })
+        .catch(function (err) { return res.status(500).send(err); });
+});
+app.get('/api/v1/routes/:route', function (req, res) {
     cds.getRoute(req.params.route)
         .then(function (result) { return res.send(result); })
         .catch(function (err) { return res.status(500).send(err); });
