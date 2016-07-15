@@ -148,7 +148,7 @@ export class CDS {
     route5014: null
   }
 
-  private onRouteUpdate: (route: number, update: any) => any = () => {}
+  private onRouteUpdate: (route: number, update: any) => any = () => { }
 
   constructor(interval = 1000) {
     keys(this.routes).map(key => {
@@ -193,6 +193,15 @@ export class CDS {
     })
   }
 
+  getRoute(routeNumber: number) {
+    const route = `route${routeNumber}`
+    return Promise.resolve().then(() => {
+      if (!this.routes[route].loaded)
+        return this.loadRoute(routeNumber)
+      else return this.routes[route]
+    })
+  }
+
   public subscribe(route: number) {
     this.routes[`route${route}`].listenersCount += 1
     if (!this.routes[`route${route}`].loaded) {
@@ -206,7 +215,7 @@ export class CDS {
   }
 
   public on(event: string, cb: (route: number, update: any) => any) {
-    switch(event) {
+    switch (event) {
       case 'routeUpdate': {
         this.onRouteUpdate = cb
         break

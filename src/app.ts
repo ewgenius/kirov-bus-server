@@ -16,13 +16,22 @@ cds.on('routeUpdate', (route, update) => {
   io.to(String(route)).emit('route.update', update)
 })
 
+app.get('/api/v1/route/:route', (req, res) => {
+  console.log(req.params.route)
+  cds.getRoute(req.params.route)
+    .then(result => res.send(result))
+    .catch(err => res.status(500).send(err))
+})
+
 io.on('connection', socket => {
   socket.on('subscribe', route => {
     socket.join(route)
+    cds.subscribe(route)
   })
 
   socket.on('unsubscribe', route => {
     socket.leave(route)
+    cds.unsubscribe(route)
   })
 })
 

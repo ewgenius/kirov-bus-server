@@ -144,6 +144,16 @@ var CDS = (function () {
             return _this.routes[("route" + route)];
         });
     };
+    CDS.prototype.getRoute = function (routeNumber) {
+        var _this = this;
+        var route = "route" + routeNumber;
+        return Promise.resolve().then(function () {
+            if (!_this.routes[route].loaded)
+                return _this.loadRoute(routeNumber);
+            else
+                return _this.routes[route];
+        });
+    };
     CDS.prototype.subscribe = function (route) {
         this.routes[("route" + route)].listenersCount += 1;
         if (!this.routes[("route" + route)].loaded) {

@@ -12,12 +12,20 @@ cds.on('routeUpdate', function (route, update) {
     console.log(route, update);
     io.to(String(route)).emit('route.update', update);
 });
+app.get('/api/v1/route/:route', function (req, res) {
+    console.log(req.params.route);
+    cds.getRoute(req.params.route)
+        .then(function (result) { return res.send(result); })
+        .catch(function (err) { return res.status(500).send(err); });
+});
 io.on('connection', function (socket) {
     socket.on('subscribe', function (route) {
         socket.join(route);
+        cds.subscribe(route);
     });
     socket.on('unsubscribe', function (route) {
         socket.leave(route);
+        cds.unsubscribe(route);
     });
 });
 server.listen(PORT, function () {
