@@ -1,9 +1,11 @@
 "use strict";
 var express = require('express');
+var cors = require('cors');
 var http_1 = require('http');
 var IO = require('socket.io');
 var api_1 = require('./api/api');
 var PORT = process.env.PORT || 3000;
+var FRONTEND_HOST = process.env.FRONTEND_HOST || 'http://localhost:8080';
 var app = express();
 var server = http_1.createServer(app);
 var io = IO(server);
@@ -12,8 +14,11 @@ cds.on('routeUpdate', function (route, update) {
     console.log(route, update);
     io.to(String(route)).emit('route.update', update);
 });
+app.use(cors({
+    origin: FRONTEND_HOST,
+    credentials: true
+}));
 app.get('/api/v1/route/:route', function (req, res) {
-    console.log(req.params.route);
     cds.getRoute(req.params.route)
         .then(function (result) { return res.send(result); })
         .catch(function (err) { return res.status(500).send(err); });
