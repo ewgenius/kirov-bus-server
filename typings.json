@@ -2,13 +2,11 @@
   "name": "kirov-bus-server",
   "dependencies": {},
   "globalDependencies": {
-    "dotenv": "registry:dt/dotenv#2.0.0+20160327131627",
     "express": "registry:dt/express#4.0.0+20160317120654",
     "express-serve-static-core": "registry:dt/express-serve-static-core#0.0.0+20160701212727",
     "mime": "registry:dt/mime#0.0.0+20160316155526",
     "mongoose": "registry:dt/mongoose#3.8.5+20160629014609",
     "node": "registry:dt/node#6.0.0+20160709114037",
-    "serve-static": "registry:dt/serve-static#0.0.0+20160606155157",
-    "underscore": "registry:dt/underscore#1.7.0+20160622050840"
+    "serve-static": "registry:dt/serve-static#0.0.0+20160606155157"
   }
 }

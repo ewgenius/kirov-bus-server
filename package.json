@@ -9,8 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^2.0.0",
-    "keystone": "^0.3.21"
+    "express": "^4.14.0"
   },
   "devDependencies": {}
 }

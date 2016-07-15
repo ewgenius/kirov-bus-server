@@ -1,2 +1,4 @@
 node_modules
 src_old
+typings
+.env
