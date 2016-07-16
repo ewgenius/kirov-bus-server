@@ -54,7 +54,7 @@ mongoose.connect(`mongodb://admin:admin@ds017195.mlab.com:17195/kirov-bus`, err 
 
     /*
     import bus stops
-*/
+
     cds.getRoutes().then(routes => {
       keys(routes).map(route => {
         cds.getRoute(route).then(result => {
@@ -73,7 +73,7 @@ mongoose.connect(`mongodb://admin:admin@ds017195.mlab.com:17195/kirov-bus`, err 
         })
       })
     })
-
+*/
   }
 })
 
@@ -105,9 +105,51 @@ app.get('/api/v1/stops', (req, res) => {
     })
 })
 
-app.get('/api/v1/stops/:id', (req, res) => {
+app.get('/api/v1/stops/search', (req, res) => {
+  const q = req.query.q || ''
+  const lng = Number(req.query.lng)
+  const lat = Number(req.query.lat)
+  const distance = Number(req.query.d || 1)
+
+  const query = {
+    name: new RegExp('^' + q + '.*$', "i"),
+  }
+
+  if (lat && lng) {
+    query['location'] = {
+      $near: {
+        $maxDistance: distance,
+        $geometry: {
+          type: 'Point',
+          coordinates: [lng, lat]
+        }
+      }
+    }
+  }
+
+  mongoose.model('Stop')
+    .find(query)
+    .limit(20)
+    .exec()
+    .then(result => {
+      res.send(result)
+    })
+})
+
+app.get('/api/v1/stops/byId/:id', (req, res) => {
   mongoose.model('Stop')
     .findById(req.params.id)
+    .exec()
+    .then(result => {
+      res.send(result)
+    })
+})
+
+app.get('/api/v1/stops/byCode/:code', (req, res) => {
+  mongoose.model('Stop')
+    .findOne({
+      code: req.params.code
+    })
     .exec()
     .then(result => {
       res.send(result)
