@@ -1,33 +1,16 @@
-import {Model, Document, Schema} from 'mongoose'
-
-
-/*mongoose.connect(`mongodb://admin:admin@ds017195.mlab.com:17195/kirov-bus`, err => {
-  if (err) console.log(err)
-  else {
-
-  }
-})*/
+import {model, Model, Document, Schema} from 'mongoose'
+import {schemaStop} from './Stop'
 
 export interface IRoute extends Document {
-  route: number,
-  name: string
+  route: string
 }
 
-const schema = new Schema({
-  id: {
-    type: String,
-    require: true
-  },
+export const schemaRoute = new Schema({
   route: {
-    name: Number,
-    require: true
+    type: String
   }
 })
 
-export class Route {
-  document: IRoute
-
-  constructor(document: IRoute) {
-    this.document = document
-  }
-}
+console.log('init model')
+const Route = model('Route', schemaRoute)
+export default Route

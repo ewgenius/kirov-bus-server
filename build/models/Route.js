@@ -1,19 +1,11 @@
 "use strict";
 var mongoose_1 = require('mongoose');
-var schema = new mongoose_1.Schema({
-    id: {
-        type: String,
-        require: true
-    },
+exports.schemaRoute = new mongoose_1.Schema({
     route: {
-        name: Number,
-        require: true
+        type: String
     }
 });
-var Route = (function () {
-    function Route(document) {
-        this.document = document;
-    }
-    return Route;
-}());
-exports.Route = Route;
+console.log('init model');
+var Route = mongoose_1.model('Route', exports.schemaRoute);
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = Route;

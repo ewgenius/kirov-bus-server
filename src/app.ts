@@ -1,3 +1,5 @@
+import {readdirSync} from 'fs'
+import * as path from 'path'
 import * as express from 'express'
 import * as cors from 'cors'
 import {createServer} from 'http'
@@ -11,6 +13,20 @@ const FRONTEND_HOST = process.env.FRONTEND_HOST || 'http://localhost:8080'
 const app = express()
 const server = createServer(app)
 const io = IO(server)
+
+// mongoose
+
+function importModels(base) {
+  const modelsPath = path.join(__dirname, base)
+  readdirSync(modelsPath).forEach(file => {
+    const model = require('./' + base + '/' + file)
+  })
+}
+
+mongoose.connect(`mongodb://admin:admin@ds017195.mlab.com:17195/kirov-bus`, err => {
+  if (err) console.log(err)
+  else importModels('models')
+})
 
 // cds api
 const cds = new CDS()

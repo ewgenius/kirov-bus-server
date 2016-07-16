@@ -58,63 +58,63 @@ var CDS = (function () {
         var _this = this;
         if (interval === void 0) { interval = 1000; }
         this.routes = {
-            route1001: null,
-            route1002: null,
-            route1003: null,
-            route1005: null,
-            route1009: null,
-            route1010: null,
-            route1012: null,
-            route1014: null,
-            route1015: null,
-            route1016: null,
-            route1017: null,
-            route1019: null,
-            route1020: null,
-            route1021: null,
-            route1022: null,
-            route1023: null,
-            route1026: null,
-            route1033: null,
-            route1037: null,
-            route1038: null,
-            route1039: null,
-            route1044: null,
-            route1046: null,
-            route1050: null,
-            route1051: null,
-            route1052: null,
-            route1053: null,
-            route1054: null,
-            route1061: null,
-            route1067: null,
-            route1070: null,
-            route1074: null,
-            route1084: null,
-            route1087: null,
-            route1088: null,
-            route1090: null,
-            route3101: null,
-            route3104: null,
-            route3116: null,
-            route3117: null,
-            route3129: null,
-            route3136: null,
-            route3143: null,
-            route3146: null,
-            route5001: null,
-            route5003: null,
-            route5004: null,
-            route5005: null,
-            route5007: null,
-            route5008: null,
-            route5011: null,
-            route5014: null
+            '1001': null,
+            '1002': null,
+            '1003': null,
+            '1005': null,
+            '1009': null,
+            '1010': null,
+            '1012': null,
+            '1014': null,
+            '1015': null,
+            '1016': null,
+            '1017': null,
+            '1019': null,
+            '1020': null,
+            '1021': null,
+            '1022': null,
+            '1023': null,
+            '1026': null,
+            '1033': null,
+            '1037': null,
+            '1038': null,
+            '1039': null,
+            '1044': null,
+            '1046': null,
+            '1050': null,
+            '1051': null,
+            '1052': null,
+            '1053': null,
+            '1054': null,
+            '1061': null,
+            '1067': null,
+            '1070': null,
+            '1074': null,
+            '1084': null,
+            '1087': null,
+            '1088': null,
+            '1090': null,
+            '3101': null,
+            '3104': null,
+            '3116': null,
+            '3117': null,
+            '3129': null,
+            '3136': null,
+            '3143': null,
+            '3146': null,
+            '5001': null,
+            '5003': null,
+            '5004': null,
+            '5005': null,
+            '5007': null,
+            '5008': null,
+            '5011': null,
+            '5014': null
         };
         this.onRouteUpdate = function () { };
         ramda_1.keys(this.routes).map(function (key) {
             _this.routes[key] = {
-                route: key.substring(5),
+                route: key,
                 type: Number(key[0]),
                 listenersCount: 0,
                 scheme: null,
@@ -131,13 +131,12 @@ var CDS = (function () {
         var _this = this;
         ramda_1.keys(this.routes).map(function (key) {
             var route = _this.routes[key];
-            var routeNumber = Number(key.substring(5));
             if (route.listenersCount > 0) {
                 console.log("update route " + route);
-                exports.requestRoute(routeNumber).then(function (result) {
+                exports.requestRoute(key).then(function (result) {
                     if (!route.buses || JSON.stringify(route.buses) !== JSON.stringify(result)) {
                         _this.routes[key].buses = result;
-                        _this.onRouteUpdate(routeNumber, result);
+                        _this.onRouteUpdate(key, result);
                     }
                 });
             }
@@ -146,34 +145,33 @@ var CDS = (function () {
     CDS.prototype.loadRoute = function (route) {
         var _this = this;
         return exports.requestScheme(route).then(function (result) {
-            _this.routes[("route" + route)].scheme = result.scheme;
-            _this.routes[("route" + route)].busstop = result.busstop;
-            _this.routes[("route" + route)].loaded = true;
-            return _this.routes[("route" + route)];
+            _this.routes[route].scheme = result.scheme;
+            _this.routes[route].busstop = result.busstop;
+            _this.routes[route].loaded = true;
+            return _this.routes[route];
         });
     };
     CDS.prototype.getRoutes = function () {
         return Promise.resolve(this.routes);
     };
-    CDS.prototype.getRoute = function (routeNumber) {
+    CDS.prototype.getRoute = function (route) {
         var _this = this;
-        var route = "route" + routeNumber;
         return Promise.resolve().then(function () {
             if (!_this.routes[route].loaded)
-                return _this.loadRoute(routeNumber);
+                return _this.loadRoute(route);
             else
                 return _this.routes[route];
         });
     };
     CDS.prototype.subscribe = function (route) {
-        this.routes[("route" + route)].listenersCount += 1;
-        if (!this.routes[("route" + route)].loaded) {
+        this.routes[route].listenersCount += 1;
+        if (!this.routes[route].loaded) {
             this.loadRoute(route);
         }
     };
     CDS.prototype.unsubscribe = function (route) {
-        if (this.routes[("route" + route)].listenersCount > 0)
-            this.routes[("route" + route)].listenersCount -= 1;
+        if (this.routes[route].listenersCount > 0)
+            this.routes[route].listenersCount -= 1;
     };
     CDS.prototype.on = function (event, cb) {
         switch (event) {

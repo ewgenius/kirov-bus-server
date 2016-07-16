@@ -1,14 +1,29 @@
 "use strict";
+var fs_1 = require('fs');
+var path = require('path');
 var express = require('express');
 var cors = require('cors');
 var http_1 = require('http');
 var IO = require('socket.io');
+var mongoose = require('mongoose');
 var api_1 = require('./api/api');
 var PORT = process.env.PORT || 3000;
 var FRONTEND_HOST = process.env.FRONTEND_HOST || 'http://localhost:8080';
 var app = express();
 var server = http_1.createServer(app);
 var io = IO(server);
+function importModels(base) {
+    var modelsPath = path.join(__dirname, base);
+    fs_1.readdirSync(modelsPath).forEach(function (file) {
+        var model = require('./' + base + '/' + file);
+    });
+}
+mongoose.connect("mongodb://admin:admin@ds017195.mlab.com:17195/kirov-bus", function (err) {
+    if (err)
+        console.log(err);
+    else
+        importModels('models');
+});
 var cds = new api_1.CDS();
 cds.on('routeUpdate', function (route, update) {
     console.log(route, update);
