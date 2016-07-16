@@ -1,4 +1,5 @@
 "use strict";
+var dotenv_1 = require('dotenv');
 var fs_1 = require('fs');
 var path = require('path');
 var express = require('express');
@@ -9,8 +10,10 @@ var mongoose = require('mongoose');
 var api_1 = require('./api/api');
 var Promise = require('bluebird');
 var ramda_1 = require('ramda');
+dotenv_1.config();
 var PORT = process.env.PORT || 3000;
 var FRONTEND_HOST = process.env.FRONTEND_HOST || 'http://localhost:8080';
+var MONGO_URL = process.env.MONGO_URL;
 var app = express();
 var server = http_1.createServer(app);
 var io = IO(server);
@@ -27,20 +30,21 @@ function importModels(base) {
 }
 var p = 'Promise';
 mongoose[p] = Promise;
-mongoose.connect("mongodb://admin:admin@ds017195.mlab.com:17195/kirov-bus", function (err) {
-    if (err)
-        console.log(err);
-    else {
-        importModels('models');
-        var Stop = mongoose.model('Stop');
-        cds.getRoutes().then(function (routes) {
-            ramda_1.keys(routes).map(function (route) {
-                cds.getRoute(route).then(function (result) {
+if (MONGO_URL)
+    mongoose.connect(MONGO_URL, function (err) {
+        if (err)
+            console.log(err);
+        else {
+            importModels('models');
+            var Stop = mongoose.model('Stop');
+            cds.getRoutes().then(function (routes) {
+                ramda_1.keys(routes).map(function (route) {
+                    cds.getRoute(route).then(function (result) {
+                    });
                 });
             });
-        });
-    }
-});
+        }
+    });
 app.use(cors({
     origin: FRONTEND_HOST,
     credentials: true

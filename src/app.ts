@@ -1,3 +1,4 @@
+import {config} from 'dotenv'
 import {readdirSync} from 'fs'
 import * as path from 'path'
 import * as express from 'express'
@@ -9,8 +10,11 @@ import {CDS} from './api/api'
 import * as Promise from 'bluebird'
 import {keys} from 'ramda'
 
+config()
+
 const PORT = process.env.PORT || 3000
 const FRONTEND_HOST = process.env.FRONTEND_HOST || 'http://localhost:8080'
+const MONGO_URL = process.env.MONGO_URL
 
 const app = express()
 const server = createServer(app)
@@ -33,49 +37,50 @@ function importModels(base) {
 
 const p = 'Promise'
 mongoose[p] = Promise
-mongoose.connect(`mongodb://admin:admin@ds017195.mlab.com:17195/kirov-bus`, err => {
-  if (err) console.log(err)
-  else {
-    importModels('models')
+if (MONGO_URL)
+  mongoose.connect(MONGO_URL, err => {
+    if (err) console.log(err)
+    else {
+      importModels('models')
 
-    const Stop = mongoose.model('Stop')
+      const Stop = mongoose.model('Stop')
 
 
-    //import routes
+      //import routes
 
-    cds.getRoutes().then(routes => {
-      keys(routes).map(route => {
-        cds.getRoute(route).then(result => {
-          //console.log(result.scheme)
+      cds.getRoutes().then(routes => {
+        keys(routes).map(route => {
+          cds.getRoute(route).then(result => {
+            //console.log(result.scheme)
+          })
         })
       })
-    })
 
 
-    /*
-    import bus stops
+      /*
+      import bus stops
 
-    cds.getRoutes().then(routes => {
-      keys(routes).map(route => {
-        cds.getRoute(route).then(result => {
-          result.busstop.map(stop => {
-            console.log(stop.code)
+      cds.getRoutes().then(routes => {
+        keys(routes).map(route => {
+          cds.getRoute(route).then(result => {
+            result.busstop.map(stop => {
+              console.log(stop.code)
 
-            Stop.create({
-              code: stop.code,
-              name: stop.name,
-              location: [stop.lng, stop.lat],
-              link: stop.link
-            }, err => {
+              Stop.create({
+                code: stop.code,
+                name: stop.name,
+                location: [stop.lng, stop.lat],
+                link: stop.link
+              }, err => {
 
+              })
             })
           })
         })
       })
-    })
-*/
-  }
-})
+  */
+    }
+  })
 
 // http server
 app.use(cors({

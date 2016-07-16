@@ -6,6 +6,7 @@
   "globalDependencies": {
     "bluebird": "registry:dt/bluebird#2.0.0+20160701023356",
     "cors": "registry:dt/cors#0.0.0+20160708202709",
+    "dotenv": "registry:dt/dotenv#2.0.0+20160327131627",
     "express": "registry:dt/express#4.0.0+20160317120654",
     "express-serve-static-core": "registry:dt/express-serve-static-core#0.0.0+20160701212727",
     "form-data": "registry:dt/form-data#0.0.0+20160316155526",
