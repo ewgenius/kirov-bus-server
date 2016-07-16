@@ -57,7 +57,7 @@ app.get('/api/v1/routes', function (req, res) {
     mongoose.model('Route')
         .find()
         .populate('stops')
-        .limit(20)
+        .limit(req.query.limit || 20)
         .exec()
         .then(function (result) {
         res.send(result);
@@ -87,7 +87,7 @@ app.get('/api/v1/stops', function (req, res) {
     mongoose.model('Stop')
         .find()
         .populate('routes')
-        .limit(20)
+        .limit(req.query.limit || 20)
         .exec()
         .then(function (result) {
         res.send(result);
@@ -115,7 +115,7 @@ app.get('/api/v1/stops/search', function (req, res) {
     mongoose.model('Stop')
         .find(query)
         .populate('routes')
-        .limit(20)
+        .limit(req.query.limit || 20)
         .exec()
         .then(function (result) {
         res.send(result);
