@@ -99,7 +99,7 @@ app.get('/api/v1/stops/search', function (req, res) {
     var lat = Number(req.query.lat);
     var distance = Number(req.query.d || 1);
     var query = {
-        name: new RegExp('^' + q + '.*$', "i"),
+        name: new RegExp('^.*' + q + '.*$', "i"),
     };
     if (lat && lng) {
         query['location'] = {

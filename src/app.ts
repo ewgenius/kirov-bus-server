@@ -214,7 +214,7 @@ app.get('/api/v1/stops/search', (req, res) => {
   const distance = Number(req.query.d || 1)
 
   const query = {
-    name: new RegExp('^' + q + '.*$', "i"),
+    name: new RegExp('^.*' + q + '.*$', "i"),
   }
 
   if (lat && lng) {
