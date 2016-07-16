@@ -1,16 +1,44 @@
 import {model, Model, Document, Schema} from 'mongoose'
 import {schemaStop} from './Stop'
 
+
 export interface IRoute extends Document {
-  route: string
+  route: string,
+  routeType: string,
+  routeNumber: string,
+  path: Array<{
+    location: Array<number>
+  }>,
+  stops: Array<any>
 }
 
-export const schemaRoute = new Schema({
-  route: {
-    type: String
+const schemaPoint = new Schema({
+  location: {
+    type: [Number],
+    required: true
   }
 })
 
-console.log('init model')
+export const schemaRoute = new Schema({
+  route: {
+    type: String,
+    unique: true,
+    dropDups: true,
+    required: true
+  },
+  routeType: {
+    type: String,
+    enum: ['trolleybus', 'city_bus', 'intercity_bus']
+  },
+  routeNumber: {
+    type: String
+  },
+  path: [schemaPoint],
+  stops: [{
+    type: Schema.Types.ObjectId,
+    ref: 'Stop'
+  }]
+})
+
 const Route = model('Route', schemaRoute)
 export default Route

@@ -17,7 +17,11 @@ exports.schemaStop = new mongoose_1.Schema({
     },
     link: {
         type: String
-    }
+    },
+    routes: [{
+            type: mongoose_1.Schema.Types.ObjectId,
+            ref: 'Route'
+        }]
 });
 var Stop = mongoose_1.model('Stop', exports.schemaStop);
 Object.defineProperty(exports, "__esModule", { value: true });

@@ -4,7 +4,8 @@ export interface IStop extends Document {
   code: number
   name: string
   location: Array<Number>
-  link?: string
+  link?: string,
+  routes: Array<any>
 }
 
 export const schemaStop = new Schema({
@@ -24,7 +25,11 @@ export const schemaStop = new Schema({
   },
   link: {
     type: String
-  }
+  },
+  routes: [{
+    type: Schema.Types.ObjectId,
+    ref: 'Route'
+  }]
 })
 
 const Stop = model('Stop', schemaStop)

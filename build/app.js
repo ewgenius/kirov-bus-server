@@ -37,9 +37,25 @@ if (MONGO_URL)
         else {
             importModels('models');
             var Stop = mongoose.model('Stop');
+            var Route_1 = mongoose.model('Route');
             cds.getRoutes().then(function (routes) {
                 ramda_1.keys(routes).map(function (route) {
                     cds.getRoute(route).then(function (result) {
+                        Route_1.findOne({
+                            route: route
+                        })
+                            .exec()
+                            .then(function (routeModel) {
+                            console.log(routeModel.id);
+                            if (route[0] === '1')
+                                routeModel.routeType = 'city_bus';
+                            if (route[0] === '3')
+                                routeModel.routeType = 'intercity_bus';
+                            if (route[0] === '5')
+                                routeModel.routeType = 'trolleybus';
+                            routeModel.routeNumber = String(parseInt(route.substring(1), 10));
+                            return routeModel.save();
+                        });
                     });
                 });
             });
@@ -49,15 +65,42 @@ app.use(cors({
     origin: FRONTEND_HOST,
     credentials: true
 }));
-app.get('/api/v1/routes', function (req, res) {
+app.get('/api/v1/proxy/routes', function (req, res) {
     cds.getRoutes()
         .then(function (result) { return res.send(result); })
         .catch(function (err) { return res.status(500).send(err); });
 });
-app.get('/api/v1/routes/:route', function (req, res) {
+app.get('/api/v1/proxy/routes/:route', function (req, res) {
     cds.getRoute(req.params.route)
         .then(function (result) { return res.send(result); })
         .catch(function (err) { return res.status(500).send(err); });
+});
+app.get('/api/v1/routes', function (req, res) {
+    mongoose.model('Route')
+        .find()
+        .limit(20)
+        .exec()
+        .then(function (result) {
+        res.send(result);
+    });
+});
+app.get('/api/v1/routes/byId/:id', function (req, res) {
+    mongoose.model('Route')
+        .findById(req.params.id)
+        .exec()
+        .then(function (result) {
+        res.send(result);
+    });
+});
+app.get('/api/v1/routes/byRoute/:route', function (req, res) {
+    mongoose.model('Route')
+        .findOne({
+        route: req.params.route
+    })
+        .exec()
+        .then(function (result) {
+        res.send(result);
+    });
 });
 app.get('/api/v1/stops', function (req, res) {
     mongoose.model('Stop')

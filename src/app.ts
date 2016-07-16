@@ -10,6 +10,8 @@ import {CDS} from './api/api'
 import * as Promise from 'bluebird'
 import {keys} from 'ramda'
 
+import {IRoute} from './models/Route'
+
 config()
 
 const PORT = process.env.PORT || 3000
@@ -44,21 +46,31 @@ if (MONGO_URL)
       importModels('models')
 
       const Stop = mongoose.model('Stop')
+      const Route = mongoose.model('Route')
 
-
+      /*
       //import routes
 
       cds.getRoutes().then(routes => {
-        keys(routes).map(route => {
+        keys(routes).map((route, i) => {
           cds.getRoute(route).then(result => {
-            //console.log(result.scheme)
+            console.log(route)
+            Route.create({
+              route,
+              path: result.scheme.map(point => ({
+                location: [
+                  Number(point.lng),
+                  Number(point.lat)
+                ]
+              }))
+            })
           })
         })
       })
-
+      */
 
       /*
-      import bus stops
+      //import bus stops
 
       cds.getRoutes().then(routes => {
         keys(routes).map(route => {
@@ -78,7 +90,32 @@ if (MONGO_URL)
           })
         })
       })
-  */
+      */
+
+      /*
+      // update data
+      */
+      cds.getRoutes().then(routes => {
+        keys(routes).map(route => {
+          cds.getRoute(route).then(result => {
+            Route.findOne({
+              route: route
+            })
+              .exec()
+              .then((routeModel: IRoute) => {
+                console.log(routeModel.id)
+                if (route[0] === '1')
+                  routeModel.routeType = 'city_bus'
+                if (route[0] === '3')
+                  routeModel.routeType = 'intercity_bus'
+                if (route[0] === '5')
+                  routeModel.routeType = 'trolleybus'
+                routeModel.routeNumber = String(parseInt(route.substring(1), 10))
+                return routeModel.save()
+              })
+          })
+        })
+      })
     }
   })
 
@@ -88,16 +125,46 @@ app.use(cors({
   credentials: true
 }))
 
-app.get('/api/v1/routes', (req, res) => {
+app.get('/api/v1/proxy/routes', (req, res) => {
   cds.getRoutes()
     .then(result => res.send(result))
     .catch(err => res.status(500).send(err))
 })
 
-app.get('/api/v1/routes/:route', (req, res) => {
+app.get('/api/v1/proxy/routes/:route', (req, res) => {
   cds.getRoute(req.params.route)
     .then(result => res.send(result))
     .catch(err => res.status(500).send(err))
+})
+
+app.get('/api/v1/routes', (req, res) => {
+  mongoose.model('Route')
+    .find()
+    .limit(20)
+    .exec()
+    .then(result => {
+      res.send(result)
+    })
+})
+
+app.get('/api/v1/routes/byId/:id', (req, res) => {
+  mongoose.model('Route')
+    .findById(req.params.id)
+    .exec()
+    .then(result => {
+      res.send(result)
+    })
+})
+
+app.get('/api/v1/routes/byRoute/:route', (req, res) => {
+  mongoose.model('Route')
+    .findOne({
+      route: req.params.route
+    })
+    .exec()
+    .then(result => {
+      res.send(result)
+    })
 })
 
 app.get('/api/v1/stops', (req, res) => {
