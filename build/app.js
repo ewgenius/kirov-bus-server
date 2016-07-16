@@ -8,6 +8,7 @@ var IO = require('socket.io');
 var mongoose = require('mongoose');
 var api_1 = require('./api/api');
 var Promise = require('bluebird');
+var ramda_1 = require('ramda');
 var PORT = process.env.PORT || 3000;
 var FRONTEND_HOST = process.env.FRONTEND_HOST || 'http://localhost:8080';
 var app = express();
@@ -31,7 +32,29 @@ mongoose.connect("mongodb://admin:admin@ds017195.mlab.com:17195/kirov-bus", func
         console.log(err);
     else {
         importModels('models');
-        var Stop = mongoose.model('Stop');
+        var Stop_1 = mongoose.model('Stop');
+        cds.getRoutes().then(function (routes) {
+            ramda_1.keys(routes).map(function (route) {
+                cds.getRoute(route).then(function (result) {
+                });
+            });
+        });
+        cds.getRoutes().then(function (routes) {
+            ramda_1.keys(routes).map(function (route) {
+                cds.getRoute(route).then(function (result) {
+                    result.busstop.map(function (stop) {
+                        console.log(stop.code);
+                        Stop_1.create({
+                            code: stop.code,
+                            name: stop.name,
+                            location: [stop.lng, stop.lat],
+                            link: stop.link
+                        }, function (err) {
+                        });
+                    });
+                });
+            });
+        });
     }
 });
 app.use(cors({

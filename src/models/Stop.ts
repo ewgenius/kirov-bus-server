@@ -1,10 +1,9 @@
 import {model, Model, Document, Schema} from 'mongoose'
-import {schemaPoint, IPoint} from './Point'
 
 export interface IStop extends Document {
   code: number
   name: string
-  position: IPoint
+  location: Array<Number>
   link?: string
 }
 
@@ -19,9 +18,9 @@ export const schemaStop = new Schema({
     type: String,
     required: true
   },
-  position: {
-    type: schemaPoint,
-    required: true
+  location: {
+    type: [Number],
+    index: '2dsphere'
   },
   link: {
     type: String

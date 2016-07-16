@@ -1,6 +1,5 @@
 "use strict";
 var mongoose_1 = require('mongoose');
-var Point_1 = require('./Point');
 exports.schemaStop = new mongoose_1.Schema({
     code: {
         type: Number,
@@ -12,9 +11,9 @@ exports.schemaStop = new mongoose_1.Schema({
         type: String,
         required: true
     },
-    position: {
-        type: Point_1.schemaPoint,
-        required: true
+    location: {
+        type: [Number],
+        index: '2dsphere'
     },
     link: {
         type: String

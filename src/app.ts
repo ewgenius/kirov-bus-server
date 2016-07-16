@@ -41,9 +41,20 @@ mongoose.connect(`mongodb://admin:admin@ds017195.mlab.com:17195/kirov-bus`, err 
     const Stop = mongoose.model('Stop')
 
 
+    //import routes
+
+    cds.getRoutes().then(routes => {
+      keys(routes).map(route => {
+        cds.getRoute(route).then(result => {
+          //console.log(result.scheme)
+        })
+      })
+    })
+
+
     /*
     import bus stops
-
+*/
     cds.getRoutes().then(routes => {
       keys(routes).map(route => {
         cds.getRoute(route).then(result => {
@@ -53,11 +64,7 @@ mongoose.connect(`mongodb://admin:admin@ds017195.mlab.com:17195/kirov-bus`, err 
             Stop.create({
               code: stop.code,
               name: stop.name,
-              position: {
-                geometry: {
-                  coordinates: [stop.lat, stop.lng]
-                }
-              },
+              location: [stop.lng, stop.lat],
               link: stop.link
             }, err => {
 
@@ -66,7 +73,7 @@ mongoose.connect(`mongodb://admin:admin@ds017195.mlab.com:17195/kirov-bus`, err 
         })
       })
     })
-    */
+
   }
 })
 
