@@ -108,6 +108,7 @@ export class CDS {
     '1005': null,
     '1009': null,
     '1010': null,
+    '1011': null,
     '1012': null,
     '1014': null,
     '1015': null,
@@ -152,7 +153,6 @@ export class CDS {
     '5005': null,
     '5007': null,
     '5008': null,
-    '5011': null,
     '5014': null
   }
 

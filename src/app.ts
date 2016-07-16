@@ -6,6 +6,8 @@ import {createServer} from 'http'
 import * as IO from 'socket.io'
 import * as mongoose from 'mongoose'
 import {CDS} from './api/api'
+import * as Promise from 'bluebird'
+import {keys} from 'ramda'
 
 const PORT = process.env.PORT || 3000
 const FRONTEND_HOST = process.env.FRONTEND_HOST || 'http://localhost:8080'
@@ -14,8 +16,14 @@ const app = express()
 const server = createServer(app)
 const io = IO(server)
 
-// mongoose
+// cds api
+const cds = new CDS()
+cds.on('routeUpdate', (route, update) => {
+  console.log(route, update)
+  io.to(String(route)).emit('route.update', update)
+})
 
+// mongoose
 function importModels(base) {
   const modelsPath = path.join(__dirname, base)
   readdirSync(modelsPath).forEach(file => {
@@ -23,16 +31,43 @@ function importModels(base) {
   })
 }
 
+const p = 'Promise'
+mongoose[p] = Promise
 mongoose.connect(`mongodb://admin:admin@ds017195.mlab.com:17195/kirov-bus`, err => {
   if (err) console.log(err)
-  else importModels('models')
-})
+  else {
+    importModels('models')
 
-// cds api
-const cds = new CDS()
-cds.on('routeUpdate', (route, update) => {
-  console.log(route, update)
-  io.to(String(route)).emit('route.update', update)
+    const Stop = mongoose.model('Stop')
+
+
+    /*
+    import bus stops
+
+    cds.getRoutes().then(routes => {
+      keys(routes).map(route => {
+        cds.getRoute(route).then(result => {
+          result.busstop.map(stop => {
+            console.log(stop.code)
+
+            Stop.create({
+              code: stop.code,
+              name: stop.name,
+              position: {
+                geometry: {
+                  coordinates: [stop.lat, stop.lng]
+                }
+              },
+              link: stop.link
+            }, err => {
+
+            })
+          })
+        })
+      })
+    })
+    */
+  }
 })
 
 // http server
@@ -51,6 +86,25 @@ app.get('/api/v1/routes/:route', (req, res) => {
   cds.getRoute(req.params.route)
     .then(result => res.send(result))
     .catch(err => res.status(500).send(err))
+})
+
+app.get('/api/v1/stops', (req, res) => {
+  mongoose.model('Stop')
+    .find()
+    .limit(20)
+    .exec()
+    .then(result => {
+      res.send(result)
+    })
+})
+
+app.get('/api/v1/stops/:id', (req, res) => {
+  mongoose.model('Stop')
+    .findById(req.params.id)
+    .exec()
+    .then(result => {
+      res.send(result)
+    })
 })
 
 // socket connection

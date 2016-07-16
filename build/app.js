@@ -7,27 +7,32 @@ var http_1 = require('http');
 var IO = require('socket.io');
 var mongoose = require('mongoose');
 var api_1 = require('./api/api');
+var Promise = require('bluebird');
 var PORT = process.env.PORT || 3000;
 var FRONTEND_HOST = process.env.FRONTEND_HOST || 'http://localhost:8080';
 var app = express();
 var server = http_1.createServer(app);
 var io = IO(server);
+var cds = new api_1.CDS();
+cds.on('routeUpdate', function (route, update) {
+    console.log(route, update);
+    io.to(String(route)).emit('route.update', update);
+});
 function importModels(base) {
     var modelsPath = path.join(__dirname, base);
     fs_1.readdirSync(modelsPath).forEach(function (file) {
         var model = require('./' + base + '/' + file);
     });
 }
+var p = 'Promise';
+mongoose[p] = Promise;
 mongoose.connect("mongodb://admin:admin@ds017195.mlab.com:17195/kirov-bus", function (err) {
     if (err)
         console.log(err);
-    else
+    else {
         importModels('models');
-});
-var cds = new api_1.CDS();
-cds.on('routeUpdate', function (route, update) {
-    console.log(route, update);
-    io.to(String(route)).emit('route.update', update);
+        var Stop = mongoose.model('Stop');
+    }
 });
 app.use(cors({
     origin: FRONTEND_HOST,
@@ -42,6 +47,23 @@ app.get('/api/v1/routes/:route', function (req, res) {
     cds.getRoute(req.params.route)
         .then(function (result) { return res.send(result); })
         .catch(function (err) { return res.status(500).send(err); });
+});
+app.get('/api/v1/stops', function (req, res) {
+    mongoose.model('Stop')
+        .find()
+        .limit(20)
+        .exec()
+        .then(function (result) {
+        res.send(result);
+    });
+});
+app.get('/api/v1/stops/:id', function (req, res) {
+    mongoose.model('Stop')
+        .findById(req.params.id)
+        .exec()
+        .then(function (result) {
+        res.send(result);
+    });
 });
 io.on('connection', function (socket) {
     socket.on('subscribe', function (route) {

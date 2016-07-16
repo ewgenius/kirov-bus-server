@@ -1,9 +1,11 @@
 "use strict";
 var mongoose_1 = require('mongoose');
+var Point_1 = require('./Point');
 exports.schemaRoute = new mongoose_1.Schema({
     route: {
         type: String
-    }
+    },
+    scheme: [Point_1.schemaPoint]
 });
 console.log('init model');
 var Route = mongoose_1.model('Route', exports.schemaRoute);
