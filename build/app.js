@@ -9,7 +9,6 @@ var IO = require('socket.io');
 var mongoose = require('mongoose');
 var api_1 = require('./api/api');
 var Promise = require('bluebird');
-var ramda_1 = require('ramda');
 dotenv_1.config();
 var PORT = process.env.PORT || 3000;
 var FRONTEND_HOST = process.env.FRONTEND_HOST || 'http://localhost:8080';
@@ -37,28 +36,7 @@ if (MONGO_URL)
         else {
             importModels('models');
             var Stop = mongoose.model('Stop');
-            var Route_1 = mongoose.model('Route');
-            cds.getRoutes().then(function (routes) {
-                ramda_1.keys(routes).map(function (route) {
-                    cds.getRoute(route).then(function (result) {
-                        Route_1.findOne({
-                            route: route
-                        })
-                            .exec()
-                            .then(function (routeModel) {
-                            console.log(routeModel.id);
-                            if (route[0] === '1')
-                                routeModel.routeType = 'city_bus';
-                            if (route[0] === '3')
-                                routeModel.routeType = 'intercity_bus';
-                            if (route[0] === '5')
-                                routeModel.routeType = 'trolleybus';
-                            routeModel.routeNumber = String(parseInt(route.substring(1), 10));
-                            return routeModel.save();
-                        });
-                    });
-                });
-            });
+            var Route = mongoose.model('Route');
         }
     });
 app.use(cors({
@@ -78,6 +56,7 @@ app.get('/api/v1/proxy/routes/:route', function (req, res) {
 app.get('/api/v1/routes', function (req, res) {
     mongoose.model('Route')
         .find()
+        .populate('stops')
         .limit(20)
         .exec()
         .then(function (result) {
@@ -87,6 +66,7 @@ app.get('/api/v1/routes', function (req, res) {
 app.get('/api/v1/routes/byId/:id', function (req, res) {
     mongoose.model('Route')
         .findById(req.params.id)
+        .populate('stops')
         .exec()
         .then(function (result) {
         res.send(result);
@@ -97,6 +77,7 @@ app.get('/api/v1/routes/byRoute/:route', function (req, res) {
         .findOne({
         route: req.params.route
     })
+        .populate('stops')
         .exec()
         .then(function (result) {
         res.send(result);
@@ -105,6 +86,7 @@ app.get('/api/v1/routes/byRoute/:route', function (req, res) {
 app.get('/api/v1/stops', function (req, res) {
     mongoose.model('Stop')
         .find()
+        .populate('routes')
         .limit(20)
         .exec()
         .then(function (result) {
@@ -132,6 +114,7 @@ app.get('/api/v1/stops/search', function (req, res) {
     }
     mongoose.model('Stop')
         .find(query)
+        .populate('routes')
         .limit(20)
         .exec()
         .then(function (result) {
@@ -141,6 +124,7 @@ app.get('/api/v1/stops/search', function (req, res) {
 app.get('/api/v1/stops/byId/:id', function (req, res) {
     mongoose.model('Stop')
         .findById(req.params.id)
+        .populate('routes')
         .exec()
         .then(function (result) {
         res.send(result);
@@ -151,6 +135,7 @@ app.get('/api/v1/stops/byCode/:code', function (req, res) {
         .findOne({
         code: req.params.code
     })
+        .populate('routes')
         .exec()
         .then(function (result) {
         res.send(result);

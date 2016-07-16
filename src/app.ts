@@ -11,6 +11,7 @@ import * as Promise from 'bluebird'
 import {keys} from 'ramda'
 
 import {IRoute} from './models/Route'
+import {IStop} from './models/Stop'
 
 config()
 
@@ -94,7 +95,7 @@ if (MONGO_URL)
 
       /*
       // update data
-      */
+
       cds.getRoutes().then(routes => {
         keys(routes).map(route => {
           cds.getRoute(route).then(result => {
@@ -103,7 +104,6 @@ if (MONGO_URL)
             })
               .exec()
               .then((routeModel: IRoute) => {
-                console.log(routeModel.id)
                 if (route[0] === '1')
                   routeModel.routeType = 'city_bus'
                 if (route[0] === '3')
@@ -111,11 +111,33 @@ if (MONGO_URL)
                 if (route[0] === '5')
                   routeModel.routeType = 'trolleybus'
                 routeModel.routeNumber = String(parseInt(route.substring(1), 10))
-                return routeModel.save()
+
+                return Promise.all(result.busstop.map(stop => {
+                  return Stop.findOne({
+                    code: stop.code
+                  })
+                    .exec()
+                    .then((stopModel: IStop) => {
+                      if (!stopModel.routes)
+                        stopModel.routes = []
+                      if (stopModel.routes.indexOf(routeModel.id) === -1)
+                        stopModel.routes.push(routeModel.id)
+
+                      return stopModel.save()
+                    })
+                    .then((stopModel: IStop) => stopModel.id)
+                }))
+                  .then(ids => {
+                    routeModel.stops = ids
+                    console.log(routeModel.id)
+                    return routeModel.save()
+                  })
               })
           })
         })
       })
+
+      */
     }
   })
 
@@ -137,9 +159,12 @@ app.get('/api/v1/proxy/routes/:route', (req, res) => {
     .catch(err => res.status(500).send(err))
 })
 
+//
+
 app.get('/api/v1/routes', (req, res) => {
   mongoose.model('Route')
     .find()
+    .populate('stops')
     .limit(20)
     .exec()
     .then(result => {
@@ -150,6 +175,7 @@ app.get('/api/v1/routes', (req, res) => {
 app.get('/api/v1/routes/byId/:id', (req, res) => {
   mongoose.model('Route')
     .findById(req.params.id)
+    .populate('stops')
     .exec()
     .then(result => {
       res.send(result)
@@ -161,15 +187,19 @@ app.get('/api/v1/routes/byRoute/:route', (req, res) => {
     .findOne({
       route: req.params.route
     })
+    .populate('stops')
     .exec()
     .then(result => {
       res.send(result)
     })
 })
 
+//
+
 app.get('/api/v1/stops', (req, res) => {
   mongoose.model('Stop')
     .find()
+    .populate('routes')
     .limit(20)
     .exec()
     .then(result => {
@@ -201,6 +231,7 @@ app.get('/api/v1/stops/search', (req, res) => {
 
   mongoose.model('Stop')
     .find(query)
+    .populate('routes')
     .limit(20)
     .exec()
     .then(result => {
@@ -211,6 +242,7 @@ app.get('/api/v1/stops/search', (req, res) => {
 app.get('/api/v1/stops/byId/:id', (req, res) => {
   mongoose.model('Stop')
     .findById(req.params.id)
+    .populate('routes')
     .exec()
     .then(result => {
       res.send(result)
@@ -222,6 +254,7 @@ app.get('/api/v1/stops/byCode/:code', (req, res) => {
     .findOne({
       code: req.params.code
     })
+    .populate('routes')
     .exec()
     .then(result => {
       res.send(result)
