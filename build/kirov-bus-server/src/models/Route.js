@@ -15,7 +15,7 @@ exports.schemaRoute = new mongoose_1.Schema({
     },
     routeType: {
         type: String,
-        enum: ['trolleybus', 'city_bus', 'intercity_bus', 'bus', 'shuttle']
+        enum: ['trolleybus', 'city_bus', 'intercity_bus']
     },
     routeNumber: {
         type: String

@@ -1,14 +1,13 @@
 import {model, Model, Document, Schema} from 'mongoose'
 import {schemaStop} from './Stop'
 
-
 export interface IRoute extends Document {
-  route: string,
-  routeType: string,
-  routeNumber: string,
+  route: string
+  routeType: string
+  routeNumber: string
   path: Array<{
     location: Array<number>
-  }>,
+  }>
   stops: Array<any>
 }
 
@@ -28,7 +27,7 @@ export const schemaRoute = new Schema({
   },
   routeType: {
     type: String,
-    enum: ['trolleybus', 'city_bus', 'intercity_bus']
+    enum: ['trolleybus', 'city_bus', 'intercity_bus', 'bus', 'shuttle']
   },
   routeNumber: {
     type: String

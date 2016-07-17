@@ -4,7 +4,7 @@ export interface IStop extends Document {
   code: number
   name: string
   location: Array<Number>
-  link?: string,
+  link?: string
   routes: Array<any>
 }
 
