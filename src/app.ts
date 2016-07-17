@@ -105,9 +105,9 @@ if (MONGO_URL)
               .exec()
               .then((routeModel: IRoute) => {
                 if (route[0] === '1')
-                  routeModel.routeType = 'city_bus'
+                  routeModel.routeType = 'bus'
                 if (route[0] === '3')
-                  routeModel.routeType = 'intercity_bus'
+                  routeModel.routeType = 'shuttle'
                 if (route[0] === '5')
                   routeModel.routeType = 'trolleybus'
                 routeModel.routeNumber = String(parseInt(route.substring(1), 10))

@@ -27,7 +27,7 @@ export const schemaRoute = new Schema({
   },
   routeType: {
     type: String,
-    enum: ['trolleybus', 'city_bus', 'intercity_bus', 'bus', 'shuttle']
+    enum: ['bus', 'shuttle', 'trolleybus']
   },
   routeNumber: {
     type: String
