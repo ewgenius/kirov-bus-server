@@ -56,7 +56,6 @@ app.get('/api/v1/proxy/routes/:route', function (req, res) {
 app.get('/api/v1/routes', function (req, res) {
     mongoose.model('Route')
         .find()
-        .populate('stops')
         .limit(req.query.limit || 20)
         .exec()
         .then(function (result) {

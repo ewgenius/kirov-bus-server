@@ -164,7 +164,7 @@ app.get('/api/v1/proxy/routes/:route', (req, res) => {
 app.get('/api/v1/routes', (req, res) => {
   mongoose.model('Route')
     .find()
-    .populate('stops')
+    //.populate('stops')
     .limit(req.query.limit || 20)
     .exec()
     .then(result => {
