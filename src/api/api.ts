@@ -39,7 +39,7 @@ export interface RouteResponse {
   [routeId: string]: Bus
 }
 
-export const requestRoute: (string) => Promise<RouteResponse> = route => {
+export const requestRoute: (string) => Promise<any> = route => {
   return call(`/many_json.php?marsh=${route}`)
     .then(result => {
       return keys(result).reduce((res, key) => {
