@@ -1,0 +1,8296 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "properties": {
+      "name": "Магазин \"Автолюбитель\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6228065490723,
+        58.6123161315918
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Техническое училище"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6279335021973,
+        58.6149673461914
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Теруправление Октябрьского района"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6594734191895,
+        58.6147270202637
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Завод \"Красный инструментальщик\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6685218811035,
+        58.614990234375
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Центральная гостиница"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6805610656738,
+        58.6049118041992
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Дом техники"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6094703674316,
+        58.5758094787598
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Село Порошино"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.8022003173828,
+        58.6091003417969
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Торговый центр \"Грин Хаус\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6847648620605,
+        58.5703353881836
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Инфекционная больница"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6849365234375,
+        58.5631256103516
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Инфекционная больница"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6853332519531,
+        58.5640716552734
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Торговый центр \"Грин Хаус\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6850395202637,
+        58.5717430114746
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Храм Иоанна Предтечи"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6806907653809,
+        58.6064834594727
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Завод \"Красный инструментальщик\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6693649291992,
+        58.6151504516602
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Теруправление Октябрьского района"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6625480651855,
+        58.6149253845215
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Площадь имени Лепсе"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6460494995117,
+        58.6243515014648
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Техническое училище"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6268501281738,
+        58.6145973205566
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Магазин \"Автолюбитель\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6211166381836,
+        58.6115493774414
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Фабрика обуви \"Темп\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6055297851562,
+        58.6087989807129
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Школа №42"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5976982116699,
+        58.6057205200195
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Космонавта Владислава Волкова"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5904655456543,
+        58.5915870666504
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Переулок Химический"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6717948913574,
+        58.6282272338867
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "река Вятка"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6805458068848,
+        58.6224479675293
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Магазин \"Детский мир\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6618995666504,
+        58.5822792053223
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Чистопрудненская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6510314941406,
+        58.5675315856934
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Магазин \"Детский мир\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6601905822754,
+        58.5814056396484
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Заводская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6839790344238,
+        58.6181907653809
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "река Вятка"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6817283630371,
+        58.6218910217285
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Переулок Химический"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6716918945312,
+        58.6286811828613
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Ветеринарная станция"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6355781555176,
+        58.6068725585938
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Хлебозаводской проезд"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6475486755371,
+        58.603199005127
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Октябрьский проспект"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6560859680176,
+        58.6033134460449
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Цирк"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.657772064209,
+        58.5881500244141
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Железнодорожная больница"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6580238342285,
+        58.584659576416
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Песочная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6660003662109,
+        58.5585098266602
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Магазин \"Детский мир\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6588592529297,
+        58.5819625854492
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Железнодорожная больница"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6586685180664,
+        58.5847320556641
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Цирк"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6585540771484,
+        58.588451385498
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Октябрьский проспект"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.656436920166,
+        58.6034240722656
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Хлебозаводской проезд"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6465377807617,
+        58.6032562255859
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Красная горка"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.58544921875,
+        58.601131439209
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Автовокзал"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6503257751465,
+        58.5839576721191
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Автовокзал"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6503257751465,
+        58.5827293395996
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4433288574219,
+        58.6109809875488
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Ветеринарная станция"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6359100341797,
+        58.6070671081543
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Мира"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.619800567627,
+        58.6171493530273
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Лепсе"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6253204345703,
+        58.6161308288574
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Областной Дом народного творчества"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6563949584961,
+        58.6151237487793
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Библиотека имени Пушкина"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6568794250488,
+        58.604736328125
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Госпиталь участников войн"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6676635742188,
+        58.5938186645508
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Хлыновская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6879005432129,
+        58.5815315246582
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Приозерная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6957664489746,
+        58.5782508850098
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Ключевая"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7029838562012,
+        58.5804328918457
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Набережная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7031860351562,
+        58.582706451416
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Вересники"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7031326293945,
+        58.5860481262207
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Вересники"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7029342651367,
+        58.5879669189453
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Набережная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7029876708984,
+        58.5826301574707
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Ключевая"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7029495239258,
+        58.5807151794434
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Приозерная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6959342956543,
+        58.5783157348633
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Администрация города"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6688117980957,
+        58.5934295654297
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Театральная площадь"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6689300537109,
+        58.6030693054199
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Транспортное агентство"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6677894592285,
+        58.6076698303223
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Дворец бракосочетания"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6672515869141,
+        58.6122512817383
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Спорткомплекс \"Союз\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6615791320801,
+        58.6185417175293
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Перинатальный центр"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5989418029785,
+        58.602367401123
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Октябрьский проспект"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.658863067627,
+        58.6033821105957
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Юридическая академия"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6656188964844,
+        58.6052017211914
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "\"Вятский торговый дом\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7419891357422,
+        58.6207427978516
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Прудная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7370910644531,
+        58.6323089599609
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Коминтерновская площадь"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7229309082031,
+        58.6435699462891
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Боровая"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7386856079102,
+        58.642894744873
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Боровая"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7389488220215,
+        58.6429710388184
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Коминтерновская площадь"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7219200134277,
+        58.6435089111328
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Прудная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7376289367676,
+        58.6313896179199
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "\"Вятский торговый дом\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7419395446777,
+        58.6197204589844
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Дворец бракосочетания"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6670608520508,
+        58.6122207641602
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Транспортное агентство"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6676712036133,
+        58.6074600219727
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Юридическая академия"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6667327880859,
+        58.605297088623
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Перинатальный центр"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.601432800293,
+        58.6024589538574
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Дом культуры металлургов"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6327590942383,
+        58.6326103210449
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Площадь ХХ партсъезда"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6132888793945,
+        58.6374015808105
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Василия Жуковского"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6083145141602,
+        58.644115447998
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Зоновы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6016159057617,
+        58.6487159729004
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Речной порт"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5932006835938,
+        58.6668319702148
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Деревня Большая Гора"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5896987915039,
+        58.6657981872559
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Очистные сооружения"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5775833129883,
+        58.6641998291016
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Очистные сооружения"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5774002075195,
+        58.6641006469727
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Деревня Большая Гора"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5903511047363,
+        58.6662330627441
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Речной порт"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.593578338623,
+        58.6666488647461
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Зоновы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6017150878906,
+        58.648250579834
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Василия Жуковского"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6081848144531,
+        58.6440505981445
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Площадь ХХ партсъезда"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6117782592773,
+        58.6376533508301
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Дом культуры металлургов"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6323661804199,
+        58.6330337524414
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Площадь ХХ партсъезда"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6115989685059,
+        58.6362113952637
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ТЭЦ-4"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6013641357422,
+        58.6200866699219
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Сады"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6036949157715,
+        58.6235466003418
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "База \"Производственная\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6095199584961,
+        58.5821113586426
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Веста"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6133079528809,
+        58.5877952575684
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Щорса"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6097755432129,
+        58.578125
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "База \"Производственная\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6098289489746,
+        58.5823287963867
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Веста"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6132202148438,
+        58.586856842041
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Производственная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6135940551758,
+        58.5998077392578
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Мечта"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6115341186523,
+        58.6036834716797
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ТЭЦ-4"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6021461486816,
+        58.6208000183105
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Площадь ХХ партсъезда"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6116905212402,
+        58.6356811523438
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Сады"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6047248840332,
+        58.6247940063477
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Производственная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6133499145508,
+        58.5996131896973
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Библиотека имени Гайдара"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.642219543457,
+        58.5933418273926
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. 4-й Пятилетки"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6502456665039,
+        58.5656776428223
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6422996520996,
+        58.5595016479492
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Учхоз"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6397094726562,
+        58.553279876709
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Ветклиника"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.635570526123,
+        58.5508804321289
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6293907165527,
+        58.5478096008301
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Школа"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6254615783691,
+        58.5456085205078
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Чистые пруды"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6242904663086,
+        58.5431289672852
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Чистые пруды"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6244773864746,
+        58.5430603027344
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Школа"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6256790161133,
+        58.545539855957
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6301918029785,
+        58.5477905273438
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Ветклиника"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6356964111328,
+        58.550853729248
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Учхоз"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6404190063477,
+        58.5535507202148
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6426086425781,
+        58.5595207214355
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. 4-й Пятилетки"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6508407592773,
+        58.5663604736328
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Лепсе"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6249313354492,
+        58.6163291931152
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Мира"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6198501586914,
+        58.6172103881836
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Спорткомплекс \"Союз\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6617088317871,
+        58.618278503418
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Библиотека имени Пушкина"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6577301025391,
+        58.6044502258301
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Дом культуры \"Россия\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6928443908691,
+        58.5146141052246
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода \"Село Красное\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6886711120605,
+        58.5355796813965
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Техникум молочной промышленности"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6300392150879,
+        58.5915985107422
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Храм целителя Пантелеимона"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6109199523926,
+        58.5970497131348
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Площадь Маршала Конева"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6011695861816,
+        58.5970611572266
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Техникум молочной промышленности"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6298904418945,
+        58.5910186767578
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Инфекционная больница"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.684928894043,
+        58.5627403259277
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода \"Село Красное\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6887969970703,
+        58.5369606018066
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Поворот на Радужный"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.681396484375,
+        58.5225524902344
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Дом культуры \"Россия\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6931800842285,
+        58.5143699645996
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Администрация города"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6698417663574,
+        58.5937995910645
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Порошинский поворот"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7652702331543,
+        58.6165390014648
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7775459289551,
+        58.6141738891602
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "\"Юркин парк\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7798538208008,
+        58.6128311157227
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Талица"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7898292541504,
+        58.611328125
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7969284057617,
+        58.6104164123535
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Лесная полянка"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.8469390869141,
+        58.6021690368652
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Лесная полянка"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.8465118408203,
+        58.6021499633789
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7971000671387,
+        58.6105079650879
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Талица"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7901496887207,
+        58.611400604248
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "\"Юркин парк\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7799949645996,
+        58.6128082275391
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Порошинский поворот"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7645988464355,
+        58.6165618896484
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Медицинская академия"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6725807189941,
+        58.5940017700195
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Офтальмологическая больница"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6229972839355,
+        58.6376113891602
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Больница имени Бехтерева"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5626678466797,
+        58.639720916748
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Сады"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5433349609375,
+        58.6570320129395
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Сады"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5432472229004,
+        58.6570777893066
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Больница имени Бехтерева"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5619010925293,
+        58.6396789550781
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Офтальмологическая больница"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6241111755371,
+        58.6374664306641
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Ульяновская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.586009979248,
+        58.5827407836914
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Театральная площадь"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6687202453613,
+        58.6036605834961
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Ульяновская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5861396789551,
+        58.5826988220215
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Коминтерновская площадь"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7216415405273,
+        58.6438484191895
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Луговая"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6829795837402,
+        58.6601600646973
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Домостроительный комбинат"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6722793579102,
+        58.6685104370117
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Черное озеро"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6501159667969,
+        58.6756172180176
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "сады Надежда"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6399993896484,
+        58.6863899230957
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "сады Надежда"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6400871276855,
+        58.6861190795898
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Черное озеро"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6480560302734,
+        58.676399230957
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Домостроительный комбинат"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6715393066406,
+        58.6685791015625
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Луговая"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.682918548584,
+        58.6599388122559
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Ипподром"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5891494750977,
+        58.5867195129395
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Маршала И.С.Конева"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6021118164062,
+        58.5908203125
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Биохимзавод"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5755348205566,
+        58.6169013977051
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Биохимзавод"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.575553894043,
+        58.6169013977051
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Администрация города"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6685600280762,
+        58.5942192077637
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Дворец культуры «Космос»"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.626049041748,
+        58.5822143554688
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Сурикова"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6380958557129,
+        58.5827941894531
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Дворец творчества детей и молодежи-мемориал"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6378631591797,
+        58.5869560241699
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Садаковская мебельная фабрика"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5458602905273,
+        58.5964202880859
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Ледовый дворец \"Дымка\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5775718688965,
+        58.5981826782227
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Поворот на поселок Ганино"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5906715393066,
+        58.6376800537109
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Поворот на поселок Ганино"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5904006958008,
+        58.6375198364258
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Ледовый дворец \"Дымка\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5787506103516,
+        58.5988311767578
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Садаковская мебельная фабрика"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5458602905273,
+        58.5964202880859
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Мечта"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6113586425781,
+        58.6032791137695
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Щорса"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6093902587891,
+        58.5781631469727
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Базовая"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6093368530273,
+        58.5710296630859
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Поскребышевы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6175765991211,
+        58.556583404541
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ТЭЦ-5"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5906143188477,
+        58.550838470459
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Сады"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5981674194336,
+        58.5511169433594
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ТЭЦ-5"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5912475585938,
+        58.5505294799805
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию (у дома №12 по Советскому тракту)"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6057662963867,
+        58.5503158569336
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Поскребышевы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6182823181152,
+        58.5566482543945
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ЗАГС Ленинского района"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6022834777832,
+        58.601619720459
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Металлобаза"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5912132263184,
+        58.5631256103516
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "пер. Базовый"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5963706970215,
+        58.5630912780762
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Дом студента медакадемии"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6029510498047,
+        58.5643310546875
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Дом студента медакадемии"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6026496887207,
+        58.5644416809082
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Металлобаза"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5909614562988,
+        58.5629692077637
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Новая"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6471290588379,
+        58.5053482055664
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Деревня Орлы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6592712402344,
+        58.5183258056641
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Сельский строительный комбинат"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6461601257324,
+        58.4995803833008
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Радужный"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6560173034668,
+        58.501781463623
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Светлополянская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6773262023926,
+        58.5179824829102
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Поворот на Радужный"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6808319091797,
+        58.5233345031738
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Деревня Орлы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6612701416016,
+        58.5188827514648
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Радужный"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6566505432129,
+        58.5026702880859
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Новая"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.647590637207,
+        58.5054512023926
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Городская телефонная станция"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6024971008301,
+        58.598991394043
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ЗАГС Ленинского района"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6025047302246,
+        58.6016387939453
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Хлебозавод"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7146682739258,
+        58.5030517578125
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Автодорожный техникум"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7101173400879,
+        58.4924812316895
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Коммунистическая"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7306365966797,
+        58.4919700622559
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Парк"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7475547790527,
+        58.490161895752
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Кирова"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7406997680664,
+        58.4878311157227
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Кирова"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7402992248535,
+        58.4875831604004
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Парк"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7480163574219,
+        58.4902153015137
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Коммунистическая"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7296714782715,
+        58.4926300048828
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Хлебозавод"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7160224914551,
+        58.5027542114258
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Диорама"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6505699157715,
+        58.5919303894043
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Калинина"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6508712768555,
+        58.5867538452148
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Автовокзал"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6509552001953,
+        58.5831756591797
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Автовокзал"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6511383056641,
+        58.5829811096191
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Диорама"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6511154174805,
+        58.5869216918945
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Октябрьский проспект"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6606750488281,
+        58.5870819091797
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Октябрьский проспект"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6593208312988,
+        58.5869636535645
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Завод приводных цепей"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5744590759277,
+        58.5679092407227
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Полк ППС"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5710792541504,
+        58.5700416564941
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Тихая"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5665893554688,
+        58.573429107666
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Дворец творчества детей и молодежи-мемориал"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6377067565918,
+        58.586498260498
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Сурикова"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6370429992676,
+        58.5824775695801
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Полк ППС"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5709915161133,
+        58.5700492858887
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Музей Циолковского"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6788368225098,
+        58.6055564880371
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Село Порошино"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.8021507263184,
+        58.6089897155762
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.8501014709473,
+        58.5439987182617
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.8501014709473,
+        58.5439987182617
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Завод приводных цепей"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.574390411377,
+        58.5678291320801
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Кочуровы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5089073181152,
+        58.5508117675781
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Ванчины"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4933204650879,
+        58.5453681945801
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Бони"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4858589172363,
+        58.5428314208984
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Бобыли"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4638023376465,
+        58.5371360778809
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "16 км."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4575691223145,
+        58.5348815917969
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Поворот на Лянгасово"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4414291381836,
+        58.5286598205566
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Югрино"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4256286621094,
+        58.5225410461426
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Захарищевы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4087715148926,
+        58.5136299133301
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Югрино"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4256286621094,
+        58.5225410461426
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Хлебозавод"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4429512023926,
+        58.5222091674805
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4485511779785,
+        58.5193214416504
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Гражданская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.446720123291,
+        58.5207290649414
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Поворот на Лянгасово"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4419708251953,
+        58.5288505554199
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "16 км."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4592895507812,
+        58.5355415344238
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Бобыли"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.468578338623,
+        58.538459777832
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Бони"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4858589172363,
+        58.5428314208984
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Ванчины"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4933204650879,
+        58.5453681945801
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Кочуровы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5113906860352,
+        58.5514488220215
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Железнодорожная больница"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6570854187012,
+        58.5827331542969
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "д. Гуси"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4536781311035,
+        58.6123580932617
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Дом культуры (Бахта)"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4179916381836,
+        58.61083984375
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "с. Бахта"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4110717773438,
+        58.6129188537598
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "с. Бахта"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4110717773438,
+        58.6127281188965
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Дом культуры (Бахта)"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4190101623535,
+        58.6103134155273
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "д. Гуси"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4526557922363,
+        58.6121711730957
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Мира"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5096817016602,
+        58.5591316223145
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Октябрьская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5179100036621,
+        58.5609130859375
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Молодежный"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5082092285156,
+        58.5542984008789
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Вятская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7495994567871,
+        58.6072082519531
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Озерная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.748779296875,
+        58.6032218933105
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Богородская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7457504272461,
+        58.5980911254883
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Мошкачевская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7434387207031,
+        58.5956497192383
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Центральная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7461891174316,
+        58.5894393920898
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Деревня Большая Субботиха"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7538070678711,
+        58.5889892578125
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Школьная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7610702514648,
+        58.5865783691406
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Деревня Малая Субботиха"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7647705078125,
+        58.5810585021973
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Деревня Малая Субботиха"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7645416259766,
+        58.5809783935547
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Школьная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7618713378906,
+        58.5865211486816
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Деревня Большая Субботиха"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7536315917969,
+        58.589111328125
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Центральная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7459411621094,
+        58.5894393920898
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Мошкачевская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7435417175293,
+        58.5950622558594
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Богородская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7462196350098,
+        58.5982093811035
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Озерная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7485198974609,
+        58.602409362793
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Вятская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7489814758301,
+        58.6078186035156
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "д. Репки"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.3912086486816,
+        58.611011505127
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Балезенщина"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.3355102539062,
+        58.5954895019531
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Полуденное"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.316707611084,
+        58.5840454101562
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Сельский совет (по требованию)"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.3016815185547,
+        58.5749130249023
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "с. Русское"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.2853164672852,
+        58.5559921264648
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "с. Русское"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.2859725952148,
+        58.5600509643555
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Сельский совет (по требованию)"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.2985038757324,
+        58.5734367370605
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Балезенщина"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.3362693786621,
+        58.5962066650391
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Полуденное"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.3193626403809,
+        58.586254119873
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "д. Репки"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.3914909362793,
+        58.6109352111816
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Захарищевы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4101676940918,
+        58.5145378112793
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4001731872559,
+        58.5093688964844
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.3890991210938,
+        58.5033149719238
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.3769111633301,
+        58.4965896606445
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Цепели"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.3625602722168,
+        58.4898490905762
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.3522491455078,
+        58.4939613342285
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Аэропорт"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.3469009399414,
+        58.4973297119141
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Аэропорт"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.3466148376465,
+        58.4972305297852
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.3518486022949,
+        58.4935836791992
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Цепели"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.3628349304199,
+        58.4897270202637
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.3767395019531,
+        58.4961853027344
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.388500213623,
+        58.5025978088379
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.3995704650879,
+        58.5086517333984
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "д. Пестовы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4782218933105,
+        58.6288108825684
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Сады"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.479850769043,
+        58.6358489990234
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "д. Опушни"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4678115844727,
+        58.640308380127
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Заречная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4593811035156,
+        58.6439781188965
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "пос. Сосновый"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4522285461426,
+        58.6453475952148
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "пос. Сосновый"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4524841308594,
+        58.6453895568848
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Заречная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4593811035156,
+        58.6439781188965
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "д. Опушни"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4678115844727,
+        58.640308380127
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Сады"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.479850769043,
+        58.6358489990234
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "д. Пестовы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4782218933105,
+        58.6288108825684
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.2891616821289,
+        58.5416412353516
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Поворот на Башарово"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.2646331787109,
+        58.5340690612793
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Булдаки"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.2549209594727,
+        58.5356597900391
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "р. Быстрица"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.2405853271484,
+        58.5355033874512
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "р. Быстрица"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.2410163879395,
+        58.5353012084961
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Булдаки"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.2560615539551,
+        58.535083770752
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Башарово"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.2575073242188,
+        58.5104484558105
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Башарово"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.2586784362793,
+        58.5103454589844
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Поворот на Башарово"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.2623138427734,
+        58.5336647033691
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.2891616821289,
+        58.5416412353516
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Поворот на Субботиху"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.8027000427246,
+        58.594898223877
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Сады Никулинка"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.8074989318848,
+        58.5817985534668
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Нижние Булдаки"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.8139991760254,
+        58.5638008117676
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "дер. Верхние Булдаки"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.8357009887695,
+        58.5527992248535
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "дер. Сунцовы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.8584022521973,
+        58.5461921691895
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "дер. Сунцовы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.858829498291,
+        58.5463104248047
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "дер. Верхние Булдаки"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.8357009887695,
+        58.5527992248535
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "с/о Надежда"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.8083000183105,
+        58.5527000427246
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Лесничество"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7865982055664,
+        58.5405006408691
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7966003417969,
+        58.5285987854004
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Сидоровка"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.8027305603027,
+        58.5252723693848
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Сидоровка"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.8041458129883,
+        58.5256042480469
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7966003417969,
+        58.5285987854004
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Лесничество"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7865982055664,
+        58.5405006408691
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "с/о Надежда"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.8083000183105,
+        58.5527000427246
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Нижние Булдаки"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.8143730163574,
+        58.5624046325684
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Сады Никулинка"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.8074989318848,
+        58.5817985534668
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Поворот на Субботиху"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.8027000427246,
+        58.594898223877
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Площадь имени Лепсе"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6470222473145,
+        58.6249580383301
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Московская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5945091247559,
+        58.6023941040039
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Гуманитарный университет"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6803359985352,
+        58.5917778015137
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Чапаева"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6472816467285,
+        58.5808029174805
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Андрея Упита"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5923461914062,
+        58.6051979064941
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Фабрика химчистки"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6317825317383,
+        58.6171493530273
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Трифонов монастырь"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6810302734375,
+        58.6003684997559
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Зональный институт"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6845893859863,
+        58.5758476257324
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Зональный институт"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6848678588867,
+        58.5760231018066
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Трифонов монастырь"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6812553405762,
+        58.600456237793
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Фабрика химчистки"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6309661865234,
+        58.6169013977051
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Березниковская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6078491210938,
+        58.629451751709
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Тепличный комбинат"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6000175476074,
+        58.6179313659668
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Циолковского"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6112632751465,
+        58.605770111084
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "пр. Строителей"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5903968811035,
+        58.601146697998
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Магазин \"Атлант\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5952987670898,
+        58.5969161987305
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Солнечный проезд"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5982818603516,
+        58.577579498291
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Троллейбусное депо"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6033935546875,
+        58.5774383544922
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Циолковского"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6114349365234,
+        58.6063499450684
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Тепличный комбинат"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5999946594238,
+        58.6177024841309
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Березниковская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6076354980469,
+        58.6292495727539
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Лыжный комбинат"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7004241943359,
+        58.5096282958984
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Дорожный участок"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.685718536377,
+        58.5186080932617
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Корчемкино"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6860733032227,
+        58.5507850646973
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Хлыновская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6846885681152,
+        58.5815887451172
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Центральный рынок"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6760559082031,
+        58.5874099731445
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Первая больница"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6326293945312,
+        58.5778503417969
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Ивана Попова"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6308403015137,
+        58.5790405273438
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Магазин \"Атлант\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5937385559082,
+        58.5970001220703
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Воровского"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5903968811035,
+        58.5962715148926
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Первая больница"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6314430236816,
+        58.5777473449707
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Володарского"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6722640991211,
+        58.5872497558594
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Хлыновская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6844367980957,
+        58.5800018310547
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Корчемкино"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6861610412598,
+        58.5499992370605
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Дорожный участок"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6862449645996,
+        58.5183334350586
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Лыжный комбинат"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7022132873535,
+        58.5086517333984
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Западные бани"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.602180480957,
+        58.6071891784668
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Кольцова"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6089897155762,
+        58.6087532043457
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Магазин \"Антей\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6181907653809,
+        58.6098976135254
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Технический лицей"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6364784240723,
+        58.6110992431641
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Романа Ердякова"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6370582580566,
+        58.6029930114746
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Молодой Гвардии"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6572952270508,
+        58.5987892150879
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Гостиница \"Вятка\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6576347351074,
+        58.5923042297363
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Гостиница \"Вятка\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6583671569824,
+        58.5925331115723
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Молодой Гвардии"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6580200195312,
+        58.5994911193848
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Романа Ердякова"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.635929107666,
+        58.6030807495117
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Технический лицей"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6370086669922,
+        58.6115989685059
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Магазин \"Антей\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6177177429199,
+        58.609806060791
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Андрея Упита"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5918197631836,
+        58.6055603027344
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Западные бани"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.602237701416,
+        58.6073913574219
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Областная больница"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.661491394043,
+        58.5937309265137
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Пролетарская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.669319152832,
+        58.5889320373535
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Милицейская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6795463562012,
+        58.5874290466309
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Верхосунская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6899833679199,
+        58.580982208252
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Лесозаводская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7015838623047,
+        58.5923843383789
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Лесозаводская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7010307312012,
+        58.5924758911133
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Верхосунская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6898002624512,
+        58.5810508728027
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Милицейская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6805801391602,
+        58.5875244140625
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Пролетарская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6694984436035,
+        58.5885887145996
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Кинотеатр \"Октябрь\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6685104370117,
+        58.598331451416
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Северо-Садовая"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6251487731934,
+        58.6204986572266
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "База \"Кировснаб\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6170845031738,
+        58.6219673156738
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Отделение связи"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5558090209961,
+        58.5959701538086
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Армянская церковь"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6197509765625,
+        58.6026802062988
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Розы Люксембург"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6572341918945,
+        58.6109046936035
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Малые Ряби"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5949974060059,
+        58.6469841003418
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Деревня Гнусино"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6492805480957,
+        58.6708183288574
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Силикатный завод"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6643486022949,
+        58.6709518432617
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Куртеевы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6047897338867,
+        58.652271270752
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Павла Корчагина"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6983795166016,
+        58.6534194946289
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Павла Корчагина"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6997909545898,
+        58.6524887084961
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Силикатный завод"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.663890838623,
+        58.6713104248047
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Деревня Гнусино"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6483917236328,
+        58.6705589294434
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Куртеевы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6058311462402,
+        58.6528587341309
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Малые Ряби"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5941505432129,
+        58.646598815918
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Шестая больница"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6396408081055,
+        58.6295700073242
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Мясокомбинат"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6560668945312,
+        58.619197845459
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Машзавод 1 Мая"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6564064025879,
+        58.611873626709
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Отделение связи"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5546684265137,
+        58.5960693359375
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Северная больница"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6173324584961,
+        58.6470642089844
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "пер. Вершининский"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6165733337402,
+        58.6438865661621
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Лянгасы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5774307250977,
+        58.6376991271973
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Мебельная фабрика"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5536003112793,
+        58.6437797546387
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Мебельная фабрика"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.554500579834,
+        58.6432304382324
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Лянгасы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5783500671387,
+        58.6375503540039
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Дзержинского"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6157188415527,
+        58.6334991455078
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Ленинградская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6175003051758,
+        58.6341018676758
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Гостиница \"Спутник\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6252670288086,
+        58.6379165649414
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Северная больница"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6174812316895,
+        58.6469345092773
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "пер. Вершининский"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6179504394531,
+        58.6429824829102
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Московская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5948295593262,
+        58.6022834777832
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "пр. Строителей"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5905609130859,
+        58.6012725830078
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Менделеева"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6052856445312,
+        58.6024551391602
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Красный Химик"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7104911804199,
+        58.6184310913086
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Дымково"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6985282897949,
+        58.6170997619629
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Макарье"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7416648864746,
+        58.6158332824707
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Пионерская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7321891784668,
+        58.6436309814453
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Пионерская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7323188781738,
+        58.6438102722168
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Дымково"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6964111328125,
+        58.6170196533203
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Красный Химик"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7090911865234,
+        58.6185493469238
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Лодочная станция"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6783599853516,
+        58.624397277832
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Мельничная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6616287231445,
+        58.5787582397461
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Украинская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6513137817383,
+        58.5698776245117
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Палкино"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6375160217285,
+        58.5669059753418
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Школа-интернат"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6531715393066,
+        58.5658187866211
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Украинская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6517524719238,
+        58.5701942443848
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Школа-интернат"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6539497375488,
+        58.5655784606934
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Лодочная станция"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6788177490234,
+        58.624153137207
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Ярославская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6125602722168,
+        58.6141204833984
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Храм Веры, Надежды..."
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6131706237793,
+        58.6066017150879
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Проектный институт"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6345329284668,
+        58.5932884216309
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Тюленина"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6532707214355,
+        58.5725402832031
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Столбики"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6484985351562,
+        58.5624008178711
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Столбики"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6484985351562,
+        58.5624008178711
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Тюленина"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6535606384277,
+        58.5724487304688
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Деповская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6593818664551,
+        58.5774002075195
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Проектный институт"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6331596374512,
+        58.5933647155762
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Воровского"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6135330200195,
+        58.597469329834
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Парк Победы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6144409179688,
+        58.6079406738281
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Металлистов"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.609619140625,
+        58.6189117431641
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Ярославская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6103591918945,
+        58.6140480041504
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Общежитие"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5903968811035,
+        58.5991439819336
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Завод \"Сельмаш\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5944671630859,
+        58.5775260925293
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Кинотеатр \"Дружба\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6240692138672,
+        58.5776634216309
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Чернышевского"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6312217712402,
+        58.6309509277344
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Орджоникидзе"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6243705749512,
+        58.6322288513184
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Фрезерная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5963592529297,
+        58.6349601745605
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Широковская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5873794555664,
+        58.6371002197266
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5708808898926,
+        58.6386795043945
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Деревня Хабаровы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5600662231445,
+        58.6485061645508
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Деревня Хабаровы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5597991943359,
+        58.6485786437988
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5710029602051,
+        58.6384811401367
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Широковская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5879707336426,
+        58.6369705200195
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Фрезерная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5975189208984,
+        58.634578704834
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Орджоникидзе"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6229286193848,
+        58.6321983337402
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Чернышевского"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6288414001465,
+        58.6312713623047
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Кинотеатр \"Октябрь\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6682090759277,
+        58.5990982055664
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Областная больница"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6663436889648,
+        58.593879699707
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Кинотеатр \"Дружба\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.627025604248,
+        58.577823638916
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Центральный рынок"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6763038635254,
+        58.5895843505859
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Карла Маркса"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6707229614258,
+        58.5894889831543
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Подгорная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6213188171387,
+        58.6405410766602
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Филейка"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6059494018555,
+        58.6560668945312
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Санниковы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6026496887207,
+        58.6590843200684
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Деревня Малая Гора"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5982322692871,
+        58.6638984680176
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Деревня Малая Гора"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5978736877441,
+        58.664306640625
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Санниковы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6040649414062,
+        58.6581993103027
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Филейка"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6059837341309,
+        58.6560173034668
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Подгорная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6211128234863,
+        58.6408538818359
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Воровского"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6134033203125,
+        58.5960426330566
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Томиловы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6092643737793,
+        58.5654106140137
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Советский тракт"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6094169616699,
+        58.5522651672363
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Советский тракт"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.610164642334,
+        58.5522003173828
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Томиловы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.609691619873,
+        58.564769744873
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Ипподром"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5908203125,
+        58.5871658325195
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Горького"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6484756469727,
+        58.5935096740723
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Профсоюзная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6836013793945,
+        58.6154479980469
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Троицкая церковь"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7501487731934,
+        58.6131286621094
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Макарье"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7559814453125,
+        58.6149215698242
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "река Сандаловка"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7725791931152,
+        58.614688873291
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "река Сандаловка"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7757034301758,
+        58.6147956848145
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Макарье"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7567481994629,
+        58.615348815918
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Троицкая церковь"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7509613037109,
+        58.6135406494141
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Профсоюзная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6834983825684,
+        58.6155700683594
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Парк Гагарина"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6813201904297,
+        58.5967216491699
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Центр \"Глобус\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6057243347168,
+        58.5970764160156
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Ипподром"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5895156860352,
+        58.5869483947754
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Школа (Садаки)"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5676918029785,
+        58.5969390869141
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Красная горка"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.58544921875,
+        58.601131439209
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Профсоюзная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6830406188965,
+        58.6162185668945
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Андрея Упита"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5917091369629,
+        58.6064414978027
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Красная горка"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5906219482422,
+        58.603515625
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Филармония"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6817398071289,
+        58.5944709777832
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Свободы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6773986816406,
+        58.6153793334961
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Гайдара"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6430587768555,
+        58.6278991699219
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Гайдара"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6442070007324,
+        58.6268653869629
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Свободы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6739387512207,
+        58.6151809692383
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Филармония"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.681510925293,
+        58.5937919616699
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Красная горка"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5912017822266,
+        58.6041259765625
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Луганская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5997314453125,
+        58.6146011352539
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Мопра"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6805953979492,
+        58.6097412109375
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "\"Вяткаагроснаб\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7405090332031,
+        58.6254692077637
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "\"Вяткаагроснаб\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7403907775879,
+        58.6245803833008
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Проезжая"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7404441833496,
+        58.6153526306152
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Мопра"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6801605224609,
+        58.6110801696777
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Блюхера"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6830902099609,
+        58.5843505859375
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Лосево"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6851234436035,
+        58.5594367980957
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Сошени"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6825065612793,
+        58.5263671875
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Пролетарская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7240219116211,
+        58.4971237182617
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Пролетарская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7240028381348,
+        58.497631072998
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Сошени"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6826057434082,
+        58.5258560180664
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Лосево"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6855430603027,
+        58.5597991943359
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Блюхера"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6833076477051,
+        58.5843849182129
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Европейские улочки"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5792083740234,
+        58.583869934082
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Егоровская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5976104736328,
+        58.5870590209961
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Юго-Западный рынок"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6003303527832,
+        58.5947608947754
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Техникум"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.619930267334,
+        58.5957489013672
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Заречная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.731201171875,
+        58.6379089355469
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "река Плоская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7150917053223,
+        58.6470489501953
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Филатова"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7063407897949,
+        58.6488189697266
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Мостовая"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6922492980957,
+        58.657039642334
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Торфяная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6775817871094,
+        58.665111541748
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Сады Домостроитель"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6768608093262,
+        58.688289642334
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Сады Домостроитель"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6762313842773,
+        58.6882095336914
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Торфяная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6765785217285,
+        58.6655807495117
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Мостовая"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6930809020996,
+        58.6567306518555
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Филатова"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7056999206543,
+        58.6489715576172
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "река Плоская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7148704528809,
+        58.6470718383789
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Заречная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7297744750977,
+        58.6385650634766
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Рассвет"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6461601257324,
+        58.5935554504395
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Техникум"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6185531616211,
+        58.5962982177734
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Юго-Западный рынок"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.60009765625,
+        58.5941581726074
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Егоровская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5962295532227,
+        58.5870208740234
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Европейские улочки"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5782699584961,
+        58.5836906433105
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Автосалон"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.628532409668,
+        58.6028213500977
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Пушкари"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6038017272949,
+        58.6344795227051
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Фабричная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5544090270996,
+        58.6450729370117
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Фабричная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5543212890625,
+        58.6451721191406
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Пушкари"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.60498046875,
+        58.6342391967773
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Автосалон"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.624698638916,
+        58.6028900146484
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Дом печати"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6173057556152,
+        58.6027374267578
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ТРЦ \"Фестиваль\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5944709777832,
+        58.592170715332
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Авторынок"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6043128967285,
+        58.6118125915527
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Проезд Луганский"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5917816162109,
+        58.6121482849121
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Проезд Луганский"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5907974243164,
+        58.6124267578125
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Луганская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5993347167969,
+        58.6147346496582
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Цеховая"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6371994018555,
+        58.6216278076172
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Азина"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6686096191406,
+        58.5848083496094
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Ивана Попова"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6314506530762,
+        58.5822906494141
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Районный суд"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6301002502441,
+        58.5866317749023
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Некрасова"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6303520202637,
+        58.5812110900879
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Азина"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6674995422363,
+        58.5841407775879
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Цеховая"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6361618041992,
+        58.6213989257812
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Парк Победы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6142845153809,
+        58.6080627441406
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Кольцова"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6087188720703,
+        58.6091384887695
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5978698730469,
+        58.6143760681152
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5853805541992,
+        58.6139335632324
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5778007507324,
+        58.6160011291504
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5974273681641,
+        58.6137504577637
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Авторынок"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6032600402832,
+        58.6122894287109
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Переулок Школьный"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6602668762207,
+        58.5052146911621
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Шельпяки"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.674976348877,
+        58.5156936645508
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Малые Чижи"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6852188110352,
+        58.5671691894531
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Некрасова"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6306114196777,
+        58.5819091796875
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Районный суд"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.630241394043,
+        58.5892486572266
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Малые Чижи"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6849250793457,
+        58.5667457580566
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Шельпяки"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6738510131836,
+        58.5153312683105
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Переулок Школьный"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6595802307129,
+        58.5051155090332
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Общежитие"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5905990600586,
+        58.5976448059082
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Конституции"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6506614685059,
+        58.5027694702148
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6488990783691,
+        58.4994506835938
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Шулаи"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6693992614746,
+        58.5125312805176
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Поликлиника № 2"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.707633972168,
+        58.5038108825684
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Площадь Победы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7423782348633,
+        58.49267578125
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Площадь Победы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7399787902832,
+        58.4937171936035
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Поликлиника № 2"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.707878112793,
+        58.5036392211914
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Шулаи"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6687202453613,
+        58.5118865966797
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Сергеевская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6647109985352,
+        58.5082893371582
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Дружбы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6270904541016,
+        58.6366081237793
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Мечта"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6097564697266,
+        58.6026458740234
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Молочный комбинат"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6374893188477,
+        58.5916786193848
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ЦУМ"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6552963256836,
+        58.5936470031738
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ЦУМ"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6564102172852,
+        58.5937652587891
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Молочный комбинат"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6373405456543,
+        58.5919418334961
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Дом техники"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6081809997559,
+        58.5776214599609
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Завод \"Сельмаш\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5906600952148,
+        58.5775566101074
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Ул. Шевченко"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.619457244873,
+        58.5776062011719
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Красина"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6389007568359,
+        58.5783500671387
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Чапаева"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6466789245605,
+        58.5805397033691
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Спичечная фабрика"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6940498352051,
+        58.6217994689941
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Красной Звезды"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6893005371094,
+        58.6283760070801
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Красной Звезды"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6892585754395,
+        58.6283149719238
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Спичечная фабрика"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6933288574219,
+        58.6221885681152
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Чапаева"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6449775695801,
+        58.5802307128906
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Красина"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6399612426758,
+        58.5788040161133
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Шевченко"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6198654174805,
+        58.5777206420898
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Труда"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6574554443359,
+        58.6077995300293
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Труда"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6566963195801,
+        58.6085052490234
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Солнечная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.613338470459,
+        58.5928764343262
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Зеленстрой"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6555213928223,
+        58.576099395752
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Дубинина"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6585388183594,
+        58.5628204345703
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Морозова"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6623497009277,
+        58.5605697631836
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Песочная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6660194396973,
+        58.5585403442383
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Морозова"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6620407104492,
+        58.5608711242676
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Дубинина"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6584396362305,
+        58.5629615783691
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Мостовицкая"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6443290710449,
+        58.5659217834473
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Мостовицкая"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6470947265625,
+        58.5662841796875
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Зеленстрой"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6550216674805,
+        58.5754699707031
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Солнечная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6137199401855,
+        58.5928039550781
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Макарьевская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7439498901367,
+        58.6121101379395
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Макарьевская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7450103759766,
+        58.6123580932617
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Солнечная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6023902893066,
+        58.5891799926758
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Школа №42"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5974998474121,
+        58.6056098937988
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Космонавта Владислава Волкова"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5906715393066,
+        58.5929718017578
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Дом техники"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6097450256348,
+        58.5770301818848
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Поселок Дороничи"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5241088867188,
+        58.5558815002441
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Деревня Катковы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5466499328613,
+        58.5668907165527
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Шкляевская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5612373352051,
+        58.5719947814941
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Фадино"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.572078704834,
+        58.5755805969238
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Дом техники"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6085166931152,
+        58.5774574279785
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Фадино"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5747489929199,
+        58.5766792297363
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Слобода Шкляевская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5610313415527,
+        58.5720405578613
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Деревня Катковы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5465507507324,
+        58.5668601989746
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Поселок Дороничи"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5231971740723,
+        58.5556297302246
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Комсомольская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.455379486084,
+        58.5180015563965
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Спортивная"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4546585083008,
+        58.5223388671875
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Железнодорожный вокзал"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6515007019043,
+        58.5791511535645
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Школа (Садаки)"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5676918029785,
+        58.5969390869141
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Магазин (Костино)"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4920387268066,
+        58.6152801513672
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Южная (Костино)"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4786911010742,
+        58.6150398254395
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Южная (Костино)"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4786911010742,
+        58.6150398254395
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Магазин (Костино)"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4920387268066,
+        58.6152801513672
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Универмаг"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7087631225586,
+        58.5054893493652
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Филармония"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.680061340332,
+        58.5940818786621
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Универмаг"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7088737487793,
+        58.5054588317871
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5343894958496,
+        58.5985488891602
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Школа (Костино)"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5001487731934,
+        58.6151809692383
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Школа (Костино)"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5001487731934,
+        58.6151809692383
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5353202819824,
+        58.5981903076172
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Мечта"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6089477539062,
+        58.6025428771973
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Комсомольская площадь"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6558609008789,
+        58.5805511474609
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Сельскохозяйственная академия"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6581230163574,
+        58.5967254638672
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Сельскохозяйственная академия"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6575012207031,
+        58.5953254699707
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Больница (Бахта)"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4003105163574,
+        58.6113204956055
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Магазин (с. Русское)"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.2897796630859,
+        58.5674095153809
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Магазин (с. Русское)"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.2895774841309,
+        58.5677528381348
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Больница (Бахта)"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4001274108887,
+        58.6114768981934
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4421424865723,
+        58.6108512878418
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Оверинцы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5218315124512,
+        58.6066703796387
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Першино"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5128402709961,
+        58.6126594543457
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.3501205444336,
+        58.6025695800781
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "д. Колобовщина"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.3732414245605,
+        58.6105194091797
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.3084602355957,
+        58.5803260803223
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.308032989502,
+        58.5797462463379
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.3541221618652,
+        58.6049270629883
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "д. Колобовщина"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.3729209899902,
+        58.6103363037109
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Першино"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5128402709961,
+        58.6126594543457
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Оверинцы"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5218315124512,
+        58.6066703796387
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4515113830566,
+        58.5325508117676
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.4521293640137,
+        58.5326118469238
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Завод \"Сельмаш\""
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5917892456055,
+        58.5773696899414
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Областной Дом народного творчества"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6566352844238,
+        58.6153182983398
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Троллейбусный парк"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6547813415527,
+        58.6212463378906
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Площадь имени Лепсе"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6482467651367,
+        58.6241455078125
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Троллейбусный парк"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6542205810547,
+        58.6212005615234
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Железнодорожный вокзал"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6501693725586,
+        58.5793991088867
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Площадь имени Лепсе"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6465759277344,
+        58.6254005432129
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Храм целителя Пантелеимона"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6113700866699,
+        58.5969505310059
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Площадь Маршала Конева"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.6030197143555,
+        58.5968399047852
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Московская"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.5933723449707,
+        58.6023406982422
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "ул. Проезжая"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7426300048828,
+        58.6137886047363
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "Нижние Булдаки"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.8205986022949,
+        58.5638999938965
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "name": "По требованию"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        49.7779006958008,
+        58.6140594482422
+      ]
+    }
+  }]
+}
