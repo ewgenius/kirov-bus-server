@@ -5,5 +5,10 @@
   "license": "MIT",
   "dependencies": {
     "mongoose": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/geojson": "^0.0.31",
+    "@types/mongoose": "^4.7.1",
+    "@types/node": "^6.0.52"
   }
 }
